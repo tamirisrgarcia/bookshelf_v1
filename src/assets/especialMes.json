@@ -1,0 +1,66 @@
+[
+  {"img":"https://th.bing.com/th/id/OIP.Nk30MxKPRpyxxmuM3oeclAHaKF?w=185&h=252&c=7&r=0&o=5&pid=1.7" ,
+    "nomeAutor":"H.P Lovecraft",
+    "livrosPublicados":[
+      {"imgLivro":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Cthulhu_and_R%27lyeh.jpg/200px-Cthulhu_and_R%27lyeh.jpg",
+        "nomeLivro":"The Call Of Cthulhu",
+        "anoPublic":"1928"},
+      {
+        "imgLivro":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Shoggoth_by_Nottsuo.jpg/230px-Shoggoth_by_Nottsuo.jpg",
+        "nomeLivro":"At the Mountains of Madness",
+        "anoPublic":"1931"}
+    ],
+    "descricaoDoAutor":" Lovecraft era um jovem prodígio que recitava poesia aos dois anos e já escrevia seus próprios poemas aos seis. Seu avô encorajou seus hábitos de leitura, arranjando-lhe versões infantis da Ilíada e da Odisseia e introduzindo-o à literatura de terror ao apresentar-lhe histórias clássicas do terror gótico."
+  },
+
+
+  {"img":"https://th.bing.com/th/id/OIP.LYsEtOR6ZufTJPTX0TwhDwHaE7?w=232&h=180&c=7&r=0&o=5&pid=1.7" ,
+    "nomeAutor":"J.K Rowlling",
+    "livrosPublicados":[
+      {"imgLivro":"https://upload.wikimedia.org/wikipedia/pt/7/78/Capa_HP7.jpg",
+        "nomeLivro":"Harry Potter e as Relíquias da Morte",
+        "anoPublic":"2007"
+      },
+      {"imgLivro":"https://upload.wikimedia.org/wikipedia/pt/c/c8/Os_Contos_de_Beedle_o_Bardo.jpg",
+        "nomeLivro":"Os Contos de Beedle, o Bardo",
+        "anoPublic":"2008"
+      }
+    ],
+    "descricaoDoAutor":"Embora escreva, geralmente, sob o nome de J. K. Rowling, seu nome verdadeiro é Joanne Rowling. Antes da publicação do primeiro romance, a editora Bloomsbury temia que garotos não se interessassem por um livro escrito por uma mulher, então seus editores pediram que ela utilizasse duas iniciais e seu sobrenome. Como não tinha nome do meio, escolheu a letra K como a segunda inicial de sua pseudônimo, em homenagem a sua avó paterna Kathleen."
+  },
+
+
+  {"img":"https://th.bing.com/th/id/OIP.BPA6dPwu4wwcqV2vjxshGgHaFN?w=211&h=180&c=7&r=0&o=5&pid=1.7" ,
+    "nomeAutor":"John Ronald Reuel Tolkien",
+    "livrosPublicados":[
+      {
+        "imgLivro":"https://upload.wikimedia.org/wikipedia/pt/thumb/7/72/The_Hobbit_Cover.JPG/230px-The_Hobbit_Cover.JPG",
+        "nomeLivro":"The Hobbit",
+        "anoPublic":"1937"
+      },
+      {
+        "imgLivro":"https://upload.wikimedia.org/wikipedia/pt/2/26/Asociedadedoanel.jpg",
+        "nomeLivro":"The Fellowship of the Ring",
+        "anoPublic":"1954"
+      }
+    ],
+    "descricaoDoAutor":" Foi um Inglês escritor, poeta, filólogo e professor universitário, mais conhecido como o autor do clássico das obras O Hobbit , O Senhor dos Anéis e O Silmarillion."
+  },
+
+  {"img":"https://th.bing.com/th/id/OIP.-nKK7XhsaAso5FwJ_3d0wQHaHa?w=193&h=193&c=7&r=0&o=5&pid=1.7" ,
+    "nomeAutor":"Jane Austen",
+    "livrosPublicados":[
+      {
+        "imgLivro":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PrideAndPrejudiceTitlePage.jpg/250px-PrideAndPrejudiceTitlePage.jpg",
+        "nomeLivro":"Orgulho e Preconceito",
+        "anoPublic":"1813"
+      },
+      {
+        "imgLivro":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/NorthangerPersuasionTitlePage.jpg/250px-NorthangerPersuasionTitlePage.jpg",
+        "nomeLivro":"Persuasão",
+        "anoPublic":"1818"
+      }
+    ],
+    "descricaoDoAutor":"Animada pelo êxito de Sense and Sensibility, sua primeira obra, a autora tentou publicar também Pride and Prejudice, que foi vendido em novembro de 1812 e publicado em janeiro de 1813. Ao mesmo tempo, começou a trabalhar em Mansfield Park. Em 1813, a identidade da autora de Pride and Prejudice começou a difundir-se, graças à popularidade da obra e à indiscrição da família. Nesse mesmo ano foi publicada a segunda edição de suas obras, e em maio de 1814 surgiu Mansfield Park, obra da qual se venderam todos os exemplares em seis meses, e Austen começou a trabalhar em Emma."
+  }
+]
