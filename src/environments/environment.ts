@@ -4,13 +4,13 @@
 
 export const environment = {
   firebase: {
-    apiKey: "AIzaSyASIDBOJl4mWTcZ2tM_viDfM0wOTjUzd-M",
-    authDomain: "bookshelfv3-c4224.firebaseapp.com",
-    projectId: "bookshelfv3-c4224",
-    storageBucket: "bookshelfv3-c4224.appspot.com",
-    messagingSenderId: "557722969988",
-    appId: "1:557722969988:web:c303874c8c5c79ab199fd1",
-    measurementId: "G-2MR1GYR3S3"
+    projectId: 'bookshelf-1163a',
+    appId: '1:621115752833:web:55815e2d6aa1b2cf176880',
+    storageBucket: 'bookshelf-1163a.appspot.com',
+    apiKey: 'AIzaSyAIo0lfXI7MO0s8deR38RklPS5DALMqlYY',
+    authDomain: 'bookshelf-1163a.firebaseapp.com',
+    messagingSenderId: '621115752833',
+    measurementId: 'G-2TVK95TMPF',
   },
   production: false
 };
