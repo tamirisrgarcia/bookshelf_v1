@@ -1,0 +1,83 @@
+[
+  {
+    "ranking": "#1",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/61jAs+Gzw-L._SX415_BO1,204,203,200_.jpg",
+    "titulo": "História Ilustrada da Arte",
+    "autor":"Ian Chilvers",
+    "descricao": "Nesse guia completo, você poderá entender mais sobre a evolução das artes visuais no Ocidente, a partir de um extenso panorama das mais significativas manifestações artísticas do mundo - com várias obras de arte e textos esclarecedores." ,
+    "ano": "2014"
+  },
+  {
+    "ranking": "#2",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/41cztAyrL2L._SX346_BO1,204,203,200_.jpg",
+    "titulo": "Tudo sobre arte",
+    "autor":"Stephen Farthing",
+    "descricao": "Passeie pelas imagens mais importantes de todos os tempos em museus, jornais e revistas - e até mesmo em capas de romance. Essa obra é organizada cronologicamente e repleta de ícones que encantaram o mundo." ,
+    "ano": "2018"
+  },
+  {
+    "ranking": "#3",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/51mfQRh+dTL._SY344_BO1,204,203,200_.jpg",
+    "titulo": "A História da Arte",
+    "autor":"Ernst Gombrich",
+    "descricao": "Um dos mais famosos e populares livros sobre arte já publicados! Durante 45 anos, permaneceu incomparável como uma introdução a todo o assunto, reunindo das mais antigas pinturas em cavernas à arte experimental de hoje." ,
+    "ano": "2000"
+  },
+  {
+    "ranking": "#4",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/51wGRQoJc1L._SX338_BO1,204,203,200_.jpg",
+    "titulo": "O que é arte?",
+    "autor":"Leon Tolstói",
+    "descricao": "O livro traz a polêmica visão de Leon Tolstói, autor muito conhecido também pelos clássicos “Guerra e paz” e “Anna Karenina”. Para Tolstói, a boa arte deve comunicar bons sentimentos ao invés de mostrar o que é belo, pois ambos são contraditórios e não podem conviver em harmonia. Um clássico imperdível. " ,
+    "ano": "2019"
+  },
+  {
+    "ranking": "#5",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/51ZlE5jCOJL._SX374_BO1,204,203,200_.jpg",
+    "titulo": "O grande livro de arte",
+    "autor":"Susie Hodge",
+    "descricao": "Aprenda tudo sobre o mundo da arte, descubra o impacto histórico e cultural de cada peça, leia a biografia dos principais gênios da arte e saiba por que movimentos artísticos podem retratar e revolucionar uma era." ,
+    "ano": "2015"
+  },
+  {
+    "ranking": "#6",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/51ARaAjK79L._SX412_BO1,204,203,200_.jpg",
+    "titulo": "O livro da arte",
+    "autor":"Flávia Souto Maior(tradutora)",
+    "descricao": "Por meio de mais de 200 obras, o livro explora diferentes movimentos, temas e estilos artísticos - que incluem desde imagens pré-históricas que simbolizam a fertilidade até as videoinstalações do nosso século. Um livro perfeito para te introduzir nesse mundo da arte!" ,
+    "ano": "2019"
+  },
+  {
+    "ranking": "#7",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/51hRPIVSPCL._SX345_BO1,204,203,200_.jpg",
+    "titulo": "Isso é arte?: 150 anos de arte moderna do impressionismo até hoje",
+    "autor":"Will Gompertz",
+    "descricao": "O livro conduz o leitor por uma excitante viagem através de mais de 150 anos de arte moderna, do impressionismo até os dias de hoje. Com estilo envolvente que mescla profundo conhecimento do assunto, também conta com um ótimo texto e um delicioso senso de humor. " ,
+    "ano": "2013"
+  },
+  {
+    "ranking": "#8",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/41ptaO5sgcL._SY344_BO1,204,203,200_QL70_ML2_.jpg",
+    "titulo": "A cor no processo criativo : Um estudo sobre a Bauhaus e a teoria de Goethe",
+    "autor":"Lilian Ried Miller Barros",
+    "descricao": "A autora inova ao mostrar, a partir do legado deixado pela Bauhaus, como a cor pode ser inserida no processo criativo e quais suas implicações na transmissão de sentimentos, sensações e mensagens." ,
+    "ano": "2006"
+  },
+  {
+    "ranking": "#9",
+    "img":"https://images-na.ssl-images-amazon.com/images/I/41fbmwBPr6L._SX298_BO1,204,203,200_.jpg",
+    "titulo": "A obra de arte na era de sua reprodutibilidade técnica",
+    "autor":"Walter Benjamin",
+    "descricao": "No seu mais famoso ensaio, o autor analisa como as mudanças operadas pela modernidade com o advento da fotografia e do cinema mexem com o status da obra de arte. Um livro fundamental para compreender as mudanças sociais e políticas do século XX. " ,
+    "ano": "2018"
+  },
+  {
+    "ranking": "#10",
+    "img":"https://m.media-amazon.com/images/I/51P2U3em90L._SY346_.jpg",
+    "titulo": "A vida secreta das obras de arte: Histórias desaforadas e verídicas sobre grandes artistas e museus",
+    "autor":"André Cordeiro ",
+    "descricao": "Após a leitura deste livro, você nunca mais vai pensar nos museus como antes. Afinal, vai descobrir que muitos deles se tornaram apenas franquias de luxos e entretenimento - e muitas de suas obras podem ter sido roubadas em escavações clandestinas, sendo substituídas por falsificações mais recentes." ,
+    "ano": "2019"
+  }
+]
+
