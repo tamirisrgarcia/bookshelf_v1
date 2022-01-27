@@ -1,0 +1,82 @@
+[
+  {
+    "ranking": "#1",
+    "img": "https://cdn.pensador.com/img/imagens/ra/pi/rapido_e_devagar.jpg",
+    "titulo":"Rápido e Devagar: duas formas de pensar",
+    "autor":"Daniel Kahneman",
+    "descricao":"Durante as explicações de seus estudos, percebemos como não devemos confiar plenamente em nosso próprio cérebro, pois nele estão muitos pensamentos errôneos ou incompletos que nos podem levar a tomar medidas precipitadas e equivocadas.",
+    "ano":"2011"
+  },
+  {
+    "ranking": "#2",
+    "img": "https://cdn.pensador.com/img/imagens/em/bu/em_busca_de_sentido_frankl.jpg",
+    "titulo":"Em Busca de Sentido",
+    "autor":"Viktor E. Frankl",
+    "descricao":"Qual o sentido da vida? Esta deve ser uma das perguntas mais complexas da história da Humanidade! Mas algumas pessoas, como o autor desta obra, foram capazes de decifrar este enigma... mesmo que no pior dos cenários. Viktor Frankl (1905 - 1997) talvez seja o ser humano mais resiliente da história! Após ter que enfrentar o horror de QUATRO campos de concentração durante a Segunda Guerra Mundial, o criador da Logoterapia conseguiu superar todas as adversidades e seguir com sua vida." ,
+    "ano":"1946"
+  },
+  {
+    "ranking": "#3",
+    "img": "https://cdn.pensador.com/img/imagens/oa/ni/o_animal_social.jpg",
+    "titulo":"O Animal Social",
+    "autor":"Elliot Aronson",
+    "descricao":"Este é um estudo de referência sobre as relações sociais contemporâneas, uma obra essencial para quem tem interesse em psicologia social, mas não está muito por dentro do assunto. Nesta obra, a partir de diversas experiências aplicadas por Eliot e sua equipe, temos algumas explicações para 'justificar' a existência de pensamentos que são motivos para problemas sociais recorrentes, como o preconceito e a alienação, por exemplo." ,
+    "ano":"2011"
+  },
+  {
+    "ranking": "#4",
+    "img": "https://cdn.pensador.com/img/imagens/in/co/incognito_as_vidas_secretas_do_cerebro.jpg",
+    "titulo":"Incógnito: As vidas secretas do cérebro",
+    "autor":"David Eagleman",
+    "descricao":"David Eagleman te dá uma pá e convida a cavar as mais profundas camadas do cérebro humano! Incógnito: as vidas secretas do cérebro foi eleito bestseller pelo The New York Times e entre os mais recomendados pelo Wall Street Journal. Para quem tem curiosidade sobre os mistérios do subconsciente humano e suas contradições, este livro é mais do que recomendado!" ,
+    "ano":"2012"
+  },
+  {
+    "ranking": "#5",
+    "img": "https://cdn.pensador.com/img/imagens/in/te/inteligencia_emocional.jpg",
+    "titulo":"Inteligência emocional",
+    "autor":"Daniel Goleman",
+    "descricao":"A inteligência emocional é um assunto que já debatemos aqui no Pensador. Mas, se você quer se aprofundar no assunto, a obra de Daniel Goleman é a mais indicada para quem deseja entender melhor esta nova visão sobre a inteligência humana. Em suma, a inteligência emocional é a capacidade de 'controlar' os seus impulsos emocionais, ter a consciência de seus sentimentos, sentir empatia e aplicar outras habilidades sociais." ,
+    "ano":"1995"
+  },
+  {
+    "ranking": "#6",
+    "img": "https://cdn.pensador.com/img/imagens/se/us/seus_pontos_fracos.jpg",
+    "titulo":"Seus Pontos Fracos",
+    "autor":"Wayne Dyer",
+    "descricao":"Dyer nos guia através da complexidade da mente humana e dá direções de como podemos ultrapassar os piores aspectos da nossa personalidade (ansiedade, procrastinação, ciúme, medo, dependência e etc), sempre com argumentações inteligentes e sensatas." ,
+    "ano":"1976"
+  },
+  {
+    "ranking": "#7",
+    "img": "https://cdn.pensador.com/img/imagens/am/ar/amar_ou_depender.jpg",
+    "titulo":"Amar ou Depender?",
+    "autor":"Walter Riso",
+    "descricao":"Riso é especialista em terapia cognitiva e, além de explicar de forma simples e clara a diferença entre amar e depender emocionalmente de alguém, neste livro ainda somos desafiados pelo psiquiatra com uma série de propostas de exercícios para identificar e acabar com uma provável relação doentia. Amar ou Depender? é ideal para nos ajudar a perceber que podemos (e devemos) amar ao próximo sem prejudicar o nosso amor-próprio!" ,
+    "ano":"2009"
+  },
+  {
+    "ranking": "#8",
+    "img": "https://cdn.pensador.com/img/imagens/bi/po/bipolar.jpg",
+    "titulo":"Bipolar: Memórias de Extremos",
+    "autor":"Terri Cheney",
+    "descricao":"Sentindo na pele as consequências do transtorno bipolar, a autora desta obra transcreve todas as suas experiências relacionadas com esta doença, narrando as consequências que acarreta tanto para si como para os que a cercam.    No livro de Terri Cheney ainda acompanhamos os momentos mais extremos de sua vida, entre eles diversas tentativas de suicídio, noites na prisão, exploração sexual e tratamentos de eletrochoque." ,
+    "ano":"2008"
+  },
+  {
+    "ranking": "#9",
+    "img": "https://cdn.pensador.com/img/imagens/oh/om/o_homem_que_confundiu_a_sua_mulher_com_um_chapeu_pensador.jpg",
+    "titulo":"O Homem que Confundiu a sua Mulher com um Chapéu",
+    "autor":"Oliver Sacks",
+    "descricao":"Este não é um livro de psicologia tradicional. O neurologista e cientista Oliver Sacks tem o dom de mostrar até para os mais leigos toda a magnitude e complexidade do funcionamento cerebral humano. O autor apresenta em forma de narrativas várias histórias clínicas sobre patologias neurológicas, desde as mais corriqueiras até as mais bizarras e assustadoras. Ressaltando que todos os casos expostos neste livro são baseados em consultas clínicas reais feitas por Oliver Sacks." ,
+    "ano":"1985"
+  },
+  {
+    "ranking": "",
+    "img": "https://cdn.pensador.com/img/imagens/oq/ue/o_que_nos_faz_felizes_pensador.jpg",
+    "titulo":"O que nos faz Felizes: O futuro nem sempre é o que imaginamos",
+    "autor":"Daniel Gilbert",
+    "descricao":"Pode não parecer, mas este passa longe de ser um livro de autoajuda! Gilbert mostra em O que nos faz Felizes como o cérebro humano pode estar 'programado' para contrariar a felicidade. Mas, ao mesmo tempo, o autor apresenta provas e divertidos exemplos que evidenciam como também estamos dotados de mecanismos para superar essas 'barreiras pessimistas' naturais'. O 'verdadeiro' caminho para a felicidade é mais cheio de curvas do que você imaginava, como este 'otimista' livro mostra." ,
+    "ano":"2006"
+  }
+]
