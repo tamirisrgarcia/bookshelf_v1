@@ -5,4 +5,5 @@ export interface Direito {
   autor: string;
   descricao: string;
   ano: string;
+  
 }
