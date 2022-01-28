@@ -1,3 +1,4 @@
+import { SagasComponent } from './sagas/sagas.component';
 import { ArtesComponent } from './artes/artes.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
@@ -44,8 +45,12 @@ const routes: Routes = [
     ...canActivate(enviarSemLogin)
   },
   {
-    path:'tecnologia', component:TecnologiaComponent,
-    ...canActivate(enviarSemLogin),
+    path: 'sagas', component: SagasComponent,
+    ...canActivate(enviarSemLogin)
+  },
+  {
+    path: 'tecnologia', component: TecnologiaComponent,
+    ...canActivate(enviarSemLogin)
   }
 ];
 
@@ -54,3 +59,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
