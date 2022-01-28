@@ -27,3 +27,11 @@
 .dashboard-card-content {
   text-align: center;
 }
+
+// SCSS do divisor de links
+.mat-divider {
+  margin: 0;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: rgb(202, 198, 198);
+}
