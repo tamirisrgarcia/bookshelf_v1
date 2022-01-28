@@ -34,6 +34,7 @@ import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
 import { PsicologiaComponent } from './psicologia/psicologia.component';
 import { DireitoComponent } from './direito/direito.component';
+import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { DireitoComponent } from './direito/direito.component';
     PsicologiaComponent,
     DireitoComponent,
     ArtesComponent,
-   ],
+    TecnologiaComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
