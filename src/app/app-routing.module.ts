@@ -1,3 +1,4 @@
+import { SagasComponent } from './sagas/sagas.component';
 import { ArtesComponent } from './artes/artes.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
@@ -40,6 +41,10 @@ const routes: Routes = [
   },
   {
     path: 'direito', component: DireitoComponent,
+    ...canActivate(enviarSemLogin)
+  },
+  {
+    path: 'sagas', component: SagasComponent,
     ...canActivate(enviarSemLogin)
   }
 ];

@@ -1,0 +1,71 @@
+<p>
+  sagas works!
+</p>
+<mat-card>
+  <div *ngIf=" livrosSagas$ | async as livrosSagas ; else loading;">
+    <mat-toolbar color="accent">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Sagas</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button>
+    </mat-toolbar>
+    <table mat-table [dataSource]="livrosSagas" class="mat-elevation-z8">
+
+      <!-- Ranking -->
+      <ng-container matColumnDef="ranking">
+        <th mat-header-cell *matHeaderCellDef> Ranking </th>
+        <td mat-cell *matCellDef="let livrosSagas"> {{ livrosSagas.ranking }} </td>
+      </ng-container>
+
+      <!-- Imagem -->
+      <ng-container matColumnDef="img">
+        <th mat-header-cell *matHeaderCellDef> </th>
+        <td mat-cell *matCellDef="let livrosSagas"><img class="imgLivro" [src]="livrosSagas.img"></td>
+      </ng-container>
+
+      <!-- Título do Livro -->
+      <ng-container matColumnDef="titulo" >
+        <th mat-header-cell *matHeaderCellDef > Título </th>
+        <td mat-cell *matCellDef="let livrosSagas"><h4 class="titLivro"> {{ livrosSagas.titulo }} </h4></td>
+      </ng-container>
+
+      <!-- Autor do Livro -->
+      <ng-container matColumnDef="autor">
+        <th mat-header-cell *matHeaderCellDef>Autor</th>
+        <td mat-cell *matCellDef="let livrosSagas"><p class="autorLivro">{{ livrosSagas.autor }} </p></td>
+      </ng-container>
+
+      <!-- Descrição do Livro -->
+      <ng-container matColumnDef="descricao">
+        <th mat-header-cell *matHeaderCellDef> Descrição </th>
+        <td mat-cell *matCellDef="let livrosSagas"><h4 class="descLivro"> {{ livrosSagas.descricao }} </h4></td>
+      </ng-container>
+
+      <!-- Ano de Publicação -->
+      <ng-container matColumnDef="ano">
+        <th mat-header-cell *matHeaderCellDef> Ano </th>
+        <td mat-cell *matCellDef="let livrosSagas"> {{ livrosSagas.ano }} </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="livrosColunas"></tr>
+      <tr mat-row *matRowDef="let row; columns: livrosColunas;"></tr>
+    </table>
+  </div>
+  <ng-template #loading>
+    <div class="loading-spinner">
+      <mat-spinner></mat-spinner>
+    </div>
+  </ng-template>
+</mat-card>
+
+
+
+
+
