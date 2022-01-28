@@ -36,10 +36,11 @@ import { PsicologiaComponent } from './psicologia/psicologia.component';
 import { DireitoComponent } from './direito/direito.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
+import { TeatroComponent } from './teatro/teatro.component';
 
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
     NavegacaoComponent,
     FeedComponent,
@@ -50,7 +51,9 @@ import { TecnologiaComponent } from './tecnologia/tecnologia.component';
     DireitoComponent,
     ArtesComponent,
     SagasComponent,
-    TecnologiaComponent
+    TecnologiaComponent,
+    TeatroComponent,
+    
    ],
   imports: [
     BrowserModule,
