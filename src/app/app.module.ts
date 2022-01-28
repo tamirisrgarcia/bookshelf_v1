@@ -37,6 +37,7 @@ import { DireitoComponent } from './direito/direito.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 
+
 @NgModule({
   declarations: [	
     AppComponent,
