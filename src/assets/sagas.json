@@ -1,0 +1,91 @@
+[
+  {
+    "ranking": "#1",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51tHxR56O9L._SY344_BO1,204,203,200_QL70_.jpg",
+    "titulo": "As Crônicas de Gelo e Fogo",
+    "autor": "George R. R. Martin",
+    "descricao": "Se há uma narrativa fantástica complexa, ela provavelmente foi escrita por George R. R. Martin. Desde 1996, o autor trabalha na saga que já matou muitos personagens ao decorrer de 5 livros. Ainda faltam mais 2 livros, mas até hoje, nem sinal do desfecho da história.",
+    "ano": "1996"
+  },
+
+  {
+    "ranking": "#2",
+    "img": "https://escolaeducacao.com.br/wp-content/uploads/2020/07/o-senhor-dos-aneis.jpg",
+    "titulo": "O Senhor dos Anéis",
+    "autor": "J.R.R Tolkien",
+    "descricao": "J.R.R Tolkien não mediu esforços para desenvolver a Terra Média e seus mistérios. Marco da literatura fantástica, iniciou com a história do Hobbit e foi publicada entre 1954 e 1955. Ao todo, são 3 livros para Frodo Bolseiro destruir o bendito anel e salvar as criaturas mágicas tudo.",
+    "ano": "1955"
+  },
+
+  {
+    "ranking": "#3",
+    "img": "https://th.bing.com/th/id/OIP.2DCRVDiNUZQlgz3QsRtbcgHaLF?pid=ImgDet&rs=1",
+    "titulo": "O Guia do Mochileiro das Galáxias",
+    "autor": "Douglas Adams, Eoin Colfer",
+    "descricao": "Marco simbólico do sci-fi e cultura geek, a saga virou referencia para a cultura pop e viva o Dia da Toalha! Arthur Dent, após a destruição de sua casa, vive muitas aventuras pela galáxia com seu amigo alienígena disfarçado. E assim começa o sucesso que foi adaptado para séries de TV, filme, jogos de videogame, HQs e peças de teatro.",
+    "ano": "1979"
+  },
+
+  {
+    "ranking": "#4",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81rvO7xcJOL.jpg",
+    "titulo": "Harry Potter",
+    "autor": "Harry Potter",
+    "descricao": "O bruxo queridinho das três últimas décadas faz sucesso até hoje com lançamentos de filmes spin off. J.K. Rowling, que adotou esse pseudônimo para poder publicar sem problemas por ser mulher, iniciou sua jornada literária em 1998, depois de muitos “nãos” editoriais para uma das maiores obras fantásticas da história.",
+    "ano": "1998"
+  },
+
+  {
+    "ranking": "#5",
+    "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1359628241l/17310201.jpg",
+    "titulo": "Bento",
+    "autor": "André Vianco",
+    "descricao": "A saga Vampiro Rei iniciou em 2003 e possui 4 títulos, sendo o último lançado 10 anos após o desfecho da história e remetendo aos acontecimentos anteriores a Noite Maldita; Noite crucial para o enredo em que as pessoas viram vampiros e depois de anos, nasce o guerreiro Bento para libertar a terra das maldições que recaíram sobre a terra.",
+    "ano": "2003"
+  },
+
+  {
+    "ranking": "#6",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/71yJLhQekBL.jpg",
+    "titulo": "As Crônicas de Nárnia",
+    "autor": "C.S. Lewis",
+    "descricao": "",
+    "ano": "1950/1956"
+  },
+
+  {
+    "ranking": "#7",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81Ii3BO6L7L.jpg",
+    "titulo": "A Irmandade da Adaga Negra",
+    "autor": "J.R. Ward",
+    "descricao": "Em um universo único e cheio de magia, os irmãos que fazem parte da irmandade são verdadeiras máquinas de matar e guarda-roupas ambulantes de tão grandes.",
+    "ano": "2005"
+  },
+
+  {
+    "ranking": "#8",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/61HCuQ5LHWL.jpg",
+    "titulo": "A Mediadora",
+    "autor": "Meg Cabot",
+    "descricao": "Em 7 livros, Suzannah Simon chuta o traseiro de vários fantasmas para eles fazerem a passagem para o outro lado e deixar os humanos viverem em paz.",
+    "ano": "2000"
+  },
+
+  {
+    "ranking": "#9",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/61SnjQPJlDL.jpg",
+    "titulo": "House of Night",
+    "autor": "P.C. Cast/ Kristin Cast",
+    "descricao": "Assim que os vampiros tomaram conta do cenário literário, P.C. Cast e sua filha Kristin Cast lançaram, em 2009, umas das sagas mais longas já vistas: 12 livros na história principal e 10 como spin off. De todos, apenas 17 foram lançados no Brasil até agora. A história não é nada convencional que estamos acostumados aos vampiros. Eles não brilham, mas também não são bebedores de sangue compulsivos e malvados. Resumindo bem, House of Night é uma Hogwarts vampiresca.",
+    "ano": "2009"
+  },
+
+  {
+    "ranking": "#10",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/71+6yF167NL.jpg",
+    "titulo": "Hush Hush",
+    "autor": "Becca Fitzpatrick",
+    "descricao": "A saga contém 4 livros, foi escrita por Becca Fitzpatrick e lançada em 2009, com confirmação de longa-metragem em 2018. A história começa bem clichê, tendo um círculo romântico entre Nora e Patch em período escolar. A típica mocinha apaixonada pelo bad boy musculoso que a faz refletir sobre seus verdadeiros sentimentos.",
+    "ano": "2009"
+  }
+]
