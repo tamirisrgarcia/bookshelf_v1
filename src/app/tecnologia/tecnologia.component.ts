@@ -15,7 +15,7 @@ import { TecnologiaService } from '../servicosInterface/tecnologia.service';
 export class TecnologiaComponent implements OnInit {
 
   livrosTec$!: Observable<Tecnologia[]>
-  livrosColunas = ['ranking','img', 'titulo','autor','descricao', 'ano'];
+  livrosColunas = ['ranking', 'img', 'titulo', 'autor', 'descricao', 'ano']
 
   usuario$ = this.autenticacaoFirebaseService.usuarioLogado$;
   livrosTec = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
