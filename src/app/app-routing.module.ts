@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { canActivate, redirectUnauthorizedTo, redirectLoggedInTo } from '@angular/fire/auth-guard';
 import { PsicologiaComponent } from './psicologia/psicologia.component';
+import { DireitoComponent } from './direito/direito.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -31,6 +32,9 @@ const routes: Routes = [
   {
     path: 'psicologia', component: PsicologiaComponent,
     ...canActivate(enviarSemLogin)
+  },
+  {
+    path: 'direito', component: DireitoComponent
   }
 ];
 
