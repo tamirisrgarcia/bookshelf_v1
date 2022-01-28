@@ -31,16 +31,18 @@ import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
+import { PsicologiaComponent } from './psicologia/psicologia.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
     NavegacaoComponent,
     FeedComponent,
     AppLoginComponent,
     AppCadastroComponent,
-      EmpreendedorismoComponent
-   ],
+    EmpreendedorismoComponent,
+    PsicologiaComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
