@@ -34,7 +34,8 @@ const routes: Routes = [
     ...canActivate(enviarSemLogin)
   },
   {
-    path: 'direito', component: DireitoComponent
+    path: 'direito', component: DireitoComponent,
+    ...canActivate(enviarSemLogin)
   }
 ];
 
