@@ -30,15 +30,17 @@ import { AppComponent } from './app.component';
 import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
+import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     NavegacaoComponent,
     FeedComponent,
     AppLoginComponent,
     AppCadastroComponent,
-  ],
+      EmpreendedorismoComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
