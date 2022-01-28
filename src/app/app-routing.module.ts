@@ -8,6 +8,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { canActivate, redirectUnauthorizedTo, redirectLoggedInTo } from '@angular/fire/auth-guard';
 import { PsicologiaComponent } from './psicologia/psicologia.component';
 import { DireitoComponent } from './direito/direito.component';
+import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: 'sagas', component: SagasComponent,
     ...canActivate(enviarSemLogin)
+  },
+  {
+    path: 'tecnologia', component: TecnologiaComponent,
+    ...canActivate(enviarSemLogin)
   }
 ];
 
@@ -54,3 +59,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
