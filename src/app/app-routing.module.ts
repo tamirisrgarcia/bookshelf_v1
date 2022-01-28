@@ -1,3 +1,4 @@
+import { ArtesComponent } from './artes/artes.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { FeedComponent } from './feed/feed.component';
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'cdd',
     loadChildren: () => import('./cdd/cdd.module').then(c => c.CddModule),
+    ...canActivate(enviarSemLogin)
+  },
+  {
+    path: 'artes', component: ArtesComponent,
     ...canActivate(enviarSemLogin)
   },
   {

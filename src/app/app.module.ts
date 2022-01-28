@@ -1,3 +1,4 @@
+import { ArtesComponent } from './artes/artes.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
@@ -43,7 +44,8 @@ import { DireitoComponent } from './direito/direito.component';
     AppCadastroComponent,
     EmpreendedorismoComponent,
     PsicologiaComponent,
-    DireitoComponent
+    DireitoComponent,
+    ArtesComponent,
    ],
   imports: [
     BrowserModule,
