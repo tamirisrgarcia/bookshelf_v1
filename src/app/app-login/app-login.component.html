@@ -19,7 +19,8 @@
           <!-- Correção de Português -->
           <input matInput placeholder="Senha" formControlName="senha" type="password">
           <!-- Correção de Português, adição de ponto de interrogação -->
-          <mat-error *ngIf="senha?.errors?.['required']"><a routerLink="/app-app-cadastro">Esqueceu a senha?</a></mat-error>
+          <mat-error *ngIf="senha?.errors?.['required']">
+            <a routerLink="/recuperarsenha" [mat-dialog-close]="true">Esqueceu a senha?</a></mat-error>
         </mat-form-field>
         <mat-card-footer>
           <button class="buttonLogin" mat-raised-button color="accent" type="submit">Entrar</button>
@@ -28,7 +29,8 @@
       </form>
     </mat-card-content>
     <!-- Correção de Português -->
-    <span class="span">Você ainda <strong>não tem cadastro?</strong> Clique <a routerLink="/app-app-cadastro">aqui</a>
+    <span class="span">Você ainda <strong>não tem cadastro?</strong> Clique
+      <a routerLink="/app-app-cadastro" [mat-dialog-close]="true">aqui</a>
     e venha fazer parte desta comunidade de leitores!</span>
   </mat-card>
 </div>

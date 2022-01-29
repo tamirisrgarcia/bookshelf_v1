@@ -28,4 +28,5 @@ export class AutenticacaoFirebaseService {
         switchMap(({user}) => updateProfile(user, {displayName: nome}))
       )
     }
+
 }

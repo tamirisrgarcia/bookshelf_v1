@@ -22,6 +22,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HotToastModule } from '@ngneat/hot-toast';
+import { MatStepperModule } from '@angular/material/stepper';
 
 import { environment } from '../environments/environment';
 import { AppMaterialModule } from './app-compartilhado/app-material/app-material.module';
@@ -37,6 +38,7 @@ import { DireitoComponent } from './direito/direito.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { TeatroComponent } from './teatro/teatro.component';
+import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 
 
 @NgModule({
@@ -53,7 +55,7 @@ import { TeatroComponent } from './teatro/teatro.component';
     SagasComponent,
     TecnologiaComponent,
     TeatroComponent,
-    
+    AppRecuperarSenhaComponent
    ],
   imports: [
     BrowserModule,
@@ -79,7 +81,8 @@ import { TeatroComponent } from './teatro/teatro.component';
     provideDatabase(() => getDatabase()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
-    HotToastModule.forRoot()
+    HotToastModule.forRoot(),
+    MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,4 @@
+import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { ArtesComponent } from './artes/artes.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
@@ -56,6 +57,9 @@ const routes: Routes = [
   {
     path: 'teatro', component: TeatroComponent,
     ...canActivate(enviarSemLogin)
+  },
+  {
+    path: 'recuperarsenha', component: AppRecuperarSenhaComponent
   }
 ];
 
