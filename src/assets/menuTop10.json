@@ -1,0 +1,9 @@
+[
+  {"linkMenu": "/artes", "labelMenu":"Artes", "hab": true},
+  {"linkMenu": "/direito", "labelMenu":"Direito", "hab": true},
+  {"linkMenu": "/empreendedorismo", "labelMenu":"Empreendedorismo", "hab": true},
+  {"linkMenu": "/psicologia", "labelMenu":"Psicologia", "hab": true},
+  {"linkMenu": "/tecnologia", "labelMenu":"Tecnologia", "hab": true},
+  {"linkMenu": "/sagas", "labelMenu":"Sagas", "hab": true},
+  {"linkMenu": "/teatro", "labelMenu":"Teatro", "hab": true}
+]

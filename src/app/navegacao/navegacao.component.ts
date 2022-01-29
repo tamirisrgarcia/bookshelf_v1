@@ -4,6 +4,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { catchError, Observable, of } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
+import { MenuTop10 } from '../modelosInterface/menuTop10';
 
 import { AppLoginComponent } from './../app-login/app-login.component';
 import { MenuNavegador } from './../modelosInterface/menuNavegador';
@@ -25,6 +26,8 @@ export class NavegacaoComponent {
   aIcone=80;
   //Controle das rotas do menu.
   itensMenu$: Observable<MenuNavegador[]>
+  itensMenuTop10$!: Observable<MenuTop10[]>
+
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
       map(result => result.matches),
@@ -43,6 +46,15 @@ export class NavegacaoComponent {
           return of([])
         })
       )
+
+      this.itensMenuTop10$ = navegadorService.listagemMenuTop10()
+      .pipe(
+        catchError(error => {
+          return of([])
+        })
+      )
+
+
     }
 
     abrirLogin(erroMsg: string){
