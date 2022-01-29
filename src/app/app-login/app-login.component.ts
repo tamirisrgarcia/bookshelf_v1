@@ -41,10 +41,11 @@ export class AppLoginComponent {
       const {email, senha} = this.formularioLogin.value;
       this.autenticacaoFirebaseService.loginUsuario(email, senha)
       .pipe(
+        // Correção de Português no Toast
         this.toast.observe({
-          success: 'Login valido, obrigado',
+          success: 'Login válido, obrigado!',
           loading: 'Redirecionando...',
-          error: 'Algo deu errado, confira as informações'
+          error: 'Algo deu errado, confira suas informações!'
         })
       ).subscribe(()=>{
         this.rotas.navigate(['/cdd'])

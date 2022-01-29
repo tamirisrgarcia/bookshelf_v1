@@ -65,7 +65,8 @@ export class AppCadastroComponent implements OnInit {
       .cadastrarUsuario(nome, email, senha)
       .pipe(
         this.toast.observe({
-          success: 'Cadatro executado, bem vindo ao BookShelf',
+          // Correção de Português no Toast
+          success: 'Cadastro executado! Bem-vindo(a) ao BookShelf!',
           loading: 'Enviando informações...',
           error: ({ message }) => `Houve um problema: #BS${message}`,
         })

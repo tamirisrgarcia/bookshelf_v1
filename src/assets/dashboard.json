@@ -3,7 +3,7 @@
     "titulo": "O melhor Livro de Janeiro",
     "subtitulo":"Os melhores livros do início do ano.",
     "img": "../../assets/imagens/cover1.png",
-    "conteudo":"Vamos listar o que de melhor foi lançado no mês de janeiro de 2022, também vamos tratar do detaque para The Witcher e sua coleção de livros.",
+    "conteudo":"Vamos listar o que de melhor foi lançado no mês de janeiro de 2022, e em destaque está The Witcher e sua coleção de livros.",
     "link":[
       {"ref":"https://www.theenemy.com.br/social/criticas/review-the-witcher-temporada-2#:~:text=Honestamente%2C%20a%20breve%20apari%C3%A7%C3%A3o%20da,Ciri%20em%20termos%20de%20magia.", "texto":"The Enemy"},
       {"ref":"https://jovemnerd.com.br/nerdbunker/the-witcher-vale-a-pena-os-livros/","texto":"Jovem Nerd"}
@@ -25,7 +25,7 @@
   },
   {
     "titulo": "Clube do Livro: Sugestões de Livros",
-    "subtitulo":"Em janeiro vamos disponibilizar livros que promovam as discussões",
+    "subtitulo":"Em janeiro vamos disponibilizar livros que promovam discussões",
     "img": "../../assets/imagens/cover3.png",
     "conteudo":"Aqui você vai encontrar os livros que serão as melhores fontes de debates e construção de retórica para o mês de janeiro.",
     "link":[
@@ -45,7 +45,7 @@
     "link":[
       {"ref":"https://fvc.org.br/", "texto":"Biblioteca FVC"},
       {"ref":"https://www.revistabula.com/7802-os-melhores-livros-da-historia-da-literatura/","texto":"Revista Bula"},
-      {"ref":"https://www.amazon.com.br/b?ie=UTF8&node=6311441011","texto":"Anazon Livros Gratuitos"}
+      {"ref":"https://www.amazon.com.br/b?ie=UTF8&node=6311441011","texto":"Amazon Livros Gratuitos"}
     ],
     "cols": 1,
     "rows": 2
@@ -58,7 +58,7 @@
     "link":[
       {"ref":"https://fvc.org.br/", "texto":"Biblioteca FVC"},
       {"ref":"https://www.revistabula.com/7802-os-melhores-livros-da-historia-da-literatura/","texto":"Revista Bula"},
-      {"ref":"https://www.amazon.com.br/b?ie=UTF8&node=6311441011","texto":"Anazon Livros Gratuitos"}
+      {"ref":"https://www.amazon.com.br/b?ie=UTF8&node=6311441011","texto":"Amazon Livros Gratuitos"}
     ],
     "cols": 1,
     "rows": 2
