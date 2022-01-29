@@ -2,6 +2,7 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
+import { HotToastService } from '@ngneat/hot-toast';
 import { catchError, Observable, of } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 import { MenuTop10 } from '../modelosInterface/menuTop10';
@@ -38,7 +39,8 @@ export class NavegacaoComponent {
     private telaLogin: MatDialog,
     private rotas: Router,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService,
-    private navegadorService: NavegacaoService
+    private navegadorService: NavegacaoService,
+    private toast: HotToastService
     ) {
       this.itensMenu$ = navegadorService.listagemMenu()
       .pipe(
@@ -63,9 +65,15 @@ export class NavegacaoComponent {
       })
     }
 
+    //Autenticação de Logout
     sairUsuario(){
-      this.autenticacaoFirebaseService.sairLogin().subscribe(() =>{
+      this.autenticacaoFirebaseService.sairLogin()
+      .pipe(
+        this.toast.observe({
+          success: 'Você não está mais logado!',
+        })
+      ).subscribe(() =>{
         this.rotas.navigate([''])
-      })
+     })
     }
 }
