@@ -2,8 +2,9 @@
   height: 100%;
 }
 
+// Aumento da largura do Menu
 .sidenav {
-  width: 200px;
+  width: 250px;
 }
 
 .sidenav .mat-toolbar {
@@ -53,3 +54,9 @@ mat-icon {
  margin-left: .2rem;
 }
 
+// O ícone irá sumir quando a tela estiver em 600px
+@media only screen and (max-width: 600px) {
+  .small-icon {
+    display: none;
+  }
+}
