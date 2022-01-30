@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "Sapiens: Uma breve história da humanidade",
+    "autor": "Yuval Noah Harari",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41FU42ESk5L._SX346_BO1,204,203,200_.jpg",
+    "descricao": "O autor repassa a história da humanidade, ou do homo sapiens, desde o surgimento da espécie durante a pré-história até o presente, mas em vez de apenas “inventariar” os fatos históricos ele os relaciona com questões do presente e os questiona de maneira surpreendente. Além disso, para cada fato ou crença que temos como certa hoje em dia, o autor apresenta as diversas interpretações existentes a partir de diferentes pontos de vista, inclusive as muito atuais, e vai além, sugerindo interpretações muitas vezes desconcertantes."
+  },
+  {
+    "titulo": "A amiga genial: Infância, adolescência",
+    "autor": "Elena Ferrante",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51+xNznrf9L._SY344_BO1,204,203,200_.jpg",
+    "descricao": "A Série Napolitana, formada por quatro romances, conta a história de duas amigas ao longo de suas vidas. O primeiro, A Amiga Genial, é narrado pela personagem Elena Greco e cobre da infância aos 16 anos. As meninas se conhecem em uma vizinhança pobre de Nápoles, na década de 1950. Elena, a menina mais inteligente da turma, tem sua vida transformada quando a família do sapateiro Cerullo chega ao bairro e Raffaella, uma criança magra, mal comportada e selvagem, se torna o centro das atenções."
+  },
+  {
+    "titulo": "É Assim que Acaba",
+    "autor": "Colleen Hoover",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51i7kH+rh9L._SX322_BO1,204,203,200_.jpg",
+    "descricao": "O romance mais pessoal da carreira de Colleen Hoover, É assim que acaba discute temas como violência doméstica e abuso psicológico de forma sensível e direta. Em É assim que acaba, Colleen Hoover nos apresenta Lily, uma jovem que se mudou de uma cidadezinha do Maine para Boston, se formou em marketing e abriu a própria floricultura. E é em um dos terraços de Boston que ela conhece Ryle, um neurocirurgião confiante, teimoso e talvez até um pouco arrogante, com uma grande aversão a relacionamentos, mas que se sente muito atraído por ela. Quando os dois se apaixonam, Lily se vê no meio de um relacionamento turbulento que não é o que ela esperava. Mas será que ela conseguirá enxergar isso, por mais doloroso que seja?"
+  },
+  {
+    "titulo": "Pequeno manual antirracista",
+    "autor": "Djamila Ribeiro",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/511OpWbL5eL._SX342_BO1,204,203,200_.jpg",
+    "descricao": "Neste pequeno manual, a filósofa e ativista Djamila Ribeiro trata de temas como atualidade do racismo, negritude, branquitude, violência racial, cultura, desejos e afetos. Em onze capítulos curtos e contundentes, a autora apresenta caminhos de reflexão para aqueles que queiram aprofundar sua percepção sobre discriminações racistas estruturais e assumir a responsabilidade pela transformação do estado das coisas. "
+  }
+]
