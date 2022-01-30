@@ -1,4 +1,4 @@
-import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { ArtesComponent } from './artes/artes.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
@@ -11,6 +11,7 @@ import { PsicologiaComponent } from './psicologia/psicologia.component';
 import { DireitoComponent } from './direito/direito.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { TeatroComponent } from './teatro/teatro.component';
+import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -60,6 +61,10 @@ const routes: Routes = [
   },
   {
     path: 'recuperarsenha', component: AppRecuperarSenhaComponent
+  },
+  {
+    path:'EspecialMes', component: EspecialMesComponent,
+    ...canActivate(enviarSemLogin)
   }
 ];
 
@@ -68,4 +73,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-

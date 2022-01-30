@@ -22,7 +22,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HotToastModule } from '@ngneat/hot-toast';
-import { MatStepperModule } from '@angular/material/stepper';
 
 import { environment } from '../environments/environment';
 import { AppMaterialModule } from './app-compartilhado/app-material/app-material.module';
@@ -38,6 +37,8 @@ import { DireitoComponent } from './direito/direito.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { TeatroComponent } from './teatro/teatro.component';
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
+import { AppCompartilhadoModule } from './app-compartilhado/app-compartilhado.module';
 import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 
 
@@ -55,8 +56,9 @@ import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-
     SagasComponent,
     TecnologiaComponent,
     TeatroComponent,
+    EspecialMesComponent,
     AppRecuperarSenhaComponent
-   ],
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -82,7 +84,7 @@ import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
     HotToastModule.forRoot(),
-    MatStepperModule
+    AppCompartilhadoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
