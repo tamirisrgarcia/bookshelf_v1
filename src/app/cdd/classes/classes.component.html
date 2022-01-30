@@ -1,20 +1,16 @@
 <mat-card>
   <div *ngIf=" livrosGeneros$ | async as livrosGeneros; else loading;">
-    <mat-toolbar color="accent">
-      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-        <mat-icon>menu</mat-icon>
-      </button>
-      <span>Menu [CDD]</span>
-      <span class="example-spacer"></span>
-      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-        <mat-icon>favorite</mat-icon>
-      </button>
-      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-        <mat-icon>share</mat-icon>
-      </button>
-    </mat-toolbar>
-    <table mat-table [dataSource]="livrosGeneros" class="mat-elevation-z8">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image">
+        <img class="avatar" mat-card-image [src]="logoCards" >
+      </div>
+      <mat-card-title>CDD - Classes Dewey </mat-card-title>
+      <mat-card-subtitle>Menu</mat-card-subtitle>
+    </mat-card-header>
 
+    <img class="cover" mat-card-image [src]="imgBanner" alt="Cover da Tabela CDD">
+
+    <table mat-table [dataSource]="livrosGeneros" class="mat-elevation-z8">
       <!-- Ícone Genero-->
       <ng-container matColumnDef="_idGenero">
         <!-- Correção de Português - acento em Ícones -->

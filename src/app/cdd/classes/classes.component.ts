@@ -13,6 +13,9 @@ import { GenerosService } from './../service/generos.service';
 })
 export class ClassesComponent implements OnInit {
 
+  logoCards='../../assets/imagens/logoBS4.png';
+  imgBanner = '../../../assets/imagens/1.png'
+
   livrosGeneros$: Observable <Generos[]>;
   visaoColunas=['_idGenero','nomeGenero','decimalGenero'];
 
