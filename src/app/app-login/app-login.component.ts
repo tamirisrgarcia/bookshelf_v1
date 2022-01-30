@@ -5,7 +5,7 @@ import {
   FormGroup,
   Validators,
 } from '@angular/forms';
-import { MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
@@ -26,6 +26,7 @@ export class AppLoginComponent {
   constructor(
     private loginBuilder: FormBuilder,
     @Inject(MAT_DIALOG_DATA) public conteudo: string,
+    public dialogRef: MatDialogRef<AppLoginComponent>,
     private toast: HotToastService,
     private rotas: Router,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService
@@ -38,10 +39,19 @@ export class AppLoginComponent {
   get senha() {
     return this.formularioLogin.get('senha');
   }
+
+  // Rotina para fechar diálogo com a validação do login pelo firebase
+  fecharDialogo(){
+    this.dialogRef.close()
+  }
+
   loginFirebase() {
     if (!this.formularioLogin.valid) {
       return;
+    } else {
+      this.fecharDialogo()
     }
+
     const { email, senha } = this.formularioLogin.value;
     this.autenticacaoFirebaseService
       .loginUsuario(email, senha)
@@ -58,6 +68,8 @@ export class AppLoginComponent {
         this.limparLogin();
       });
   }
+
+
   // Rotina de limpar campos de login
   limparLogin() {
     this.formularioLogin = new FormGroup({

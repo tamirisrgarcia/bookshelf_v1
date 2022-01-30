@@ -40,13 +40,13 @@ import { TeatroComponent } from './teatro/teatro.component';
 import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { AppCompartilhadoModule } from './app-compartilhado/app-compartilhado.module';
-import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
+import { MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
+
 
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
     NavegacaoComponent,
     FeedComponent,
@@ -63,8 +63,7 @@ import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-
     EspecialMesComponent,
     NotFoundComponent
    ],
-    
-  ],
+
 
   imports: [
     BrowserModule,
@@ -93,7 +92,7 @@ import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-
     HotToastModule.forRoot(),
     AppCompartilhadoModule
   ],
-  providers: [],
+  providers: [{provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: {hasBackdrop: false}}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
