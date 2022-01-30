@@ -39,6 +39,7 @@ import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { TeatroComponent } from './teatro/teatro.component';
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { AppCompartilhadoModule } from './app-compartilhado/app-compartilhado.module';
+import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import { AppCompartilhadoModule } from './app-compartilhado/app-compartilhado.mo
     TecnologiaComponent,
     TeatroComponent,
     EspecialMesComponent,
+    AppRecuperarSenhaComponent
   ],
   imports: [
     BrowserModule,
