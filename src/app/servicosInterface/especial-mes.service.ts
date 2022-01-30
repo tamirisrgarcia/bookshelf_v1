@@ -15,7 +15,7 @@ export class EspecialMesService {
   listagemEspecMes(){
     return this.especMes.get<EspecialMes[]>(this.uriAPI).pipe(
       first(),
-      tap(apiEspec => apiEspec)
+      tap(apiEspec => apiEspec),
     )
   }
 

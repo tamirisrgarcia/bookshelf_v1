@@ -1,0 +1,26 @@
+<h1><mat-icon>library_books</mat-icon>Livros consagrados do mês de {{todayDate | pipeTraducao}}</h1>
+
+<div class="grid-container">
+<mat-grid-list cols="2" rowHeight="2:1" *ngIf="especialMes$ | async as especialMes">
+  <mat-grid-tile *ngFor="let especMes of especialMes$ | async">
+    <mat-card class="example-card">
+      <mat-card-title-group>
+        <mat-card-title>{{especMes.nomeAutor}}</mat-card-title>
+        <mat-card-subtitle>
+          <mat-nav-list>
+            <mat-list-item *ngFor="let link of especMes.livrosPublicados">
+              <a [href]="link.ref"  target="_blank">{{ link.nomeLivro }}</a>
+              <!-- Adição do divisor de links -->
+              <mat-divider></mat-divider>
+            </mat-list-item>
+          </mat-nav-list>
+        </mat-card-subtitle>
+        <img mat-card-md-image [src]="especMes.img" >
+      </mat-card-title-group>
+      <mat-card-content>
+        {{especMes.descricaoDoAutor}}
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+</div>

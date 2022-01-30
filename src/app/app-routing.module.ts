@@ -1,4 +1,4 @@
-import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { ArtesComponent } from './artes/artes.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
@@ -59,7 +59,8 @@ const routes: Routes = [
     ...canActivate(enviarSemLogin)
   },
   {
-    path: 'recuperarsenha', component: AppRecuperarSenhaComponent
+    path:'EspecialMes', component: EspecialMesComponent,
+    ...canActivate(enviarSemLogin)
   }
 ];
 
@@ -68,4 +69,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
