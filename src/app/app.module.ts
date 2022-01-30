@@ -37,6 +37,7 @@ import { DireitoComponent } from './direito/direito.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { TeatroComponent } from './teatro/teatro.component';
+import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
 
@@ -54,7 +55,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     SagasComponent,
     TecnologiaComponent,
     TeatroComponent,
-      NotFoundComponent
+    AppRecuperarSenhaComponent,
+    NotFoundComponent
    ],
   imports: [
     BrowserModule,
