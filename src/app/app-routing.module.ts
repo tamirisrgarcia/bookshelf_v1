@@ -1,3 +1,4 @@
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { ArtesComponent } from './artes/artes.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
@@ -13,7 +14,6 @@ import { TeatroComponent } from './teatro/teatro.component';
 import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -71,6 +71,7 @@ const routes: Routes = [
   {
     path: '**', component: NotFoundComponent
   }
+  
 ];
 
 @NgModule({
@@ -78,4 +79,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-

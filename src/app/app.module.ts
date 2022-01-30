@@ -40,6 +40,9 @@ import { TeatroComponent } from './teatro/teatro.component';
 import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
+import { AppCompartilhadoModule } from './app-compartilhado/app-compartilhado.module';
+import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 
 
 @NgModule({
@@ -60,6 +63,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
     EspecialMesComponent,
     NotFoundComponent
    ],
+    
+  ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -84,7 +90,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     provideDatabase(() => getDatabase()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
-    HotToastModule.forRoot()
+    HotToastModule.forRoot(),
+    AppCompartilhadoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,27 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div>
+      <img mat-card-image class="banner" src="../../assets/imagens/logoBS5.png" alt="Logo BS">
+    </div>
+    <div><mat-card-title>Recuperação de Senha</mat-card-title></div>
+  </mat-card-header>
+
+  <mat-card-content>
+    <form [formGroup]="formularioRecuperar" (ngSubmit)="loginFirebase()">
+      <mat-form-field class="inputLogin">
+        <input matInput placeholder="Informe seu Email" formControlName="email">
+
+        <mat-error *ngIf="email?.errors?.['required']">É necessário informar um e-mail.</mat-error>
+        <mat-error *ngIf="email?.errors?.['email']">O formato do e-mail é inválido</mat-error>
+      </mat-form-field>
+
+      <mat-card-footer>
+        <button class="buttonLogin" mat-raised-button color="accent" type="submit">Redefinir Senha</button>
+      </mat-card-footer>
+    </form>
+  </mat-card-content>
+</mat-card>
+
+
+
+
