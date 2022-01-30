@@ -1,9 +1,18 @@
 table {
   width: 100%;
 }
+
+mat-card {
+  margin: 20px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .example-spacer {
   flex: 1 1 auto;
 }
+
 .loading-spinner{
   background-color: rgb(221, 221, 221);
   display: flex;
@@ -14,3 +23,15 @@ table {
 .iconeCdd{
   margin: 0.5rem;
 }
+
+.mat-h1 {
+  margin-left: 0.8rem;
+  font-size: 30px;
+}
+
+.cover {
+  margin: 0 auto;
+  max-width: 1066px;
+}
+
+
