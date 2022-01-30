@@ -37,13 +37,16 @@ import { DireitoComponent } from './direito/direito.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { TeatroComponent } from './teatro/teatro.component';
+import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { AppCompartilhadoModule } from './app-compartilhado/app-compartilhado.module';
 import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
 
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     NavegacaoComponent,
     FeedComponent,
@@ -56,9 +59,13 @@ import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-
     SagasComponent,
     TecnologiaComponent,
     TeatroComponent,
+    AppRecuperarSenhaComponent,
     EspecialMesComponent,
-    AppRecuperarSenhaComponent
+    NotFoundComponent
+   ],
+    
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,

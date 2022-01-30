@@ -12,6 +12,8 @@ import { DireitoComponent } from './direito/direito.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { TeatroComponent } from './teatro/teatro.component';
 import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
+import { EspecialMesComponent } from './especial-mes/especial-mes.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -62,10 +64,14 @@ const routes: Routes = [
   {
     path: 'recuperarsenha', component: AppRecuperarSenhaComponent
   },
-  {
+   {
     path:'EspecialMes', component: EspecialMesComponent,
     ...canActivate(enviarSemLogin)
+  },
+  {
+    path: '**', component: NotFoundComponent
   }
+  
 ];
 
 @NgModule({
