@@ -4,5 +4,6 @@
   {"linkMenu": "/clube", "labelMenu":"Pagina Usuário", "hab": false},
   {"linkMenu": "/leitura", "labelMenu":"Clubes de Leitura", "hab": false},
   {"linkMenu": "/estante", "labelMenu":"Estante Particular", "hab": false},
-  {"linkMenu":"/EspecialMes", "labelMenu": "Especial do Mês", "hab": true}
+  {"linkMenu":"/EspecialMes", "labelMenu": "Especial do Mês", "hab": true},
+  {"linkMenu":"/sugestoes", "labelMenu": "Sugestões de Leitura", "hab": true}
 ]
