@@ -1,4 +1,3 @@
-import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { SagasComponent } from './sagas/sagas.component';
 import { ArtesComponent } from './artes/artes.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
@@ -71,7 +70,7 @@ const routes: Routes = [
   {
     path: '**', component: NotFoundComponent
   }
-  
+
 ];
 
 @NgModule({

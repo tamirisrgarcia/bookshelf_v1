@@ -8,7 +8,7 @@
     </mat-card-header>
     <img mat-card-image src="../../assets/imagens/4.png" alt="Banner de Login">
     <mat-card-content>
-      <form [formGroup]="formularioLogin" (ngSubmit)="loginFirebase()">
+      <form #form = "ngForm" [formGroup]="formularioLogin" (ngSubmit)="loginFirebase()">
         <mat-form-field class="inputLogin">
           <input matInput placeholder="E-mail de Login" formControlName="email">
           <!-- Correção de Português nos erros -->
@@ -35,3 +35,4 @@
   </mat-card>
 </div>
 
+<!-- [disabled] = "form.invalid" -->
