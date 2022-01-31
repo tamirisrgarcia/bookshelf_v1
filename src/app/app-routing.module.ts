@@ -9,6 +9,7 @@ import { DireitoComponent } from './direito/direito.component';
 import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { FeedComponent } from './feed/feed.component';
+import { IsbnComponent } from './isbn/isbn.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { PsicologiaComponent } from './psicologia/psicologia.component';
 import { SagasComponent } from './sagas/sagas.component';
@@ -71,6 +72,10 @@ const routes: Routes = [
   },
   {
     path:'sugestoes', component: SugestoesComponent,
+    ...canActivate(enviarSemLogin)
+  },
+  {
+    path: 'isbn', component: IsbnComponent,
     ...canActivate(enviarSemLogin)
   },
   {

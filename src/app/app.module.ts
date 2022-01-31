@@ -42,8 +42,9 @@ import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AppCompartilhadoModule } from './app-compartilhado/app-compartilhado.module';
 import { MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
-import {MatTooltipModule} from '@angular/material/tooltip';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
+import { IsbnComponent } from './isbn/isbn.component';
 
 
 @NgModule({
@@ -63,8 +64,10 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
     AppRecuperarSenhaComponent,
     EspecialMesComponent,
     NotFoundComponent,
-    SugestoesComponent
-   ],
+    SugestoesComponent,
+    IsbnComponent,
+
+  ],
 
 
   imports: [
