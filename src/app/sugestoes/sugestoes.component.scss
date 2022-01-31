@@ -1,0 +1,70 @@
+.grid-container {
+  margin: 20px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mat-h1 {
+  margin-left: 0.8rem;
+  font-size: 30px;
+}
+
+
+.sugestoes-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+mat-card-header {
+  margin-bottom: 1.5rem;
+}
+
+.mat-card-title {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.mat-card-subtitle {
+  font-size: 18px;
+}
+
+
+.mat-card-image {
+  width: 60%;
+  height: auto;
+
+}
+
+.cardImg {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+
+
+.sugestoes-card-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+
+}
+
+// SCSS do divisor de links
+.mat-divider {
+  margin: 0;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: rgb(202, 198, 198);
+}
+
+
+

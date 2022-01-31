@@ -1,5 +1,5 @@
 <mat-card>
-  <div *ngIf=" livrosArtes$ | async as livrosEmpreend ; else loading;">
+  <div *ngIf=" livrosArtes$ | async as livrosArtes ; else loading;">
     <mat-toolbar color="accent">
       <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
         <mat-icon>menu</mat-icon>
@@ -18,37 +18,37 @@
       <!-- Ranking -->
       <ng-container matColumnDef="ranking">
         <th mat-header-cell *matHeaderCellDef> Ranking </th>
-        <td mat-cell *matCellDef="let livroEmp"> {{ livroEmp.ranking }} </td>
+        <td mat-cell *matCellDef="let livroArtes"> {{ livroArtes.ranking }} </td>
       </ng-container>
 
       <!-- Imagem -->
       <ng-container matColumnDef="img">
         <th mat-header-cell *matHeaderCellDef> </th>
-        <td mat-cell *matCellDef="let livroEmp"><img class="imgLivro" [src]="livroEmp.img"></td>
+        <td mat-cell *matCellDef="let livroArtes"><img class="imgLivro" [src]="livroArtes.img"></td>
       </ng-container>
 
       <!-- Título do Livro -->
       <ng-container matColumnDef="titulo" >
         <th mat-header-cell *matHeaderCellDef > Título </th>
-        <td mat-cell *matCellDef="let livroEmp"><h4 class="titLivro"> {{ livroEmp.titulo }} </h4></td>
+        <td mat-cell *matCellDef="let livroArtes"><h4 class="titLivro"> {{ livroArtes.titulo }} </h4></td>
       </ng-container>
 
       <!-- Autor do Livro -->
       <ng-container matColumnDef="autor">
         <th mat-header-cell *matHeaderCellDef>Autor</th>
-        <td mat-cell *matCellDef="let livroEmp"><p class="autorLivro">{{ livroEmp.autor }} </p></td>
+        <td mat-cell *matCellDef="let livroArtes"><p class="autorLivro">{{ livroArtes.autor }} </p></td>
       </ng-container>
 
       <!-- Descrição do Livro -->
       <ng-container matColumnDef="descricao">
         <th mat-header-cell *matHeaderCellDef> Descrição </th>
-        <td mat-cell *matCellDef="let livroEmp"><h4 class="descLivro"> {{ livroEmp.descricao }} </h4></td>
+        <td mat-cell *matCellDef="let livroArtes"><h4 class="descLivro"> {{ livroArtes.descricao }} </h4></td>
       </ng-container>
 
       <!-- Ano de Publicação -->
       <ng-container matColumnDef="ano">
         <th mat-header-cell *matHeaderCellDef> Ano </th>
-        <td mat-cell *matCellDef="let livroEmp"> {{ livroEmp.ano }} </td>
+        <td mat-cell *matCellDef="let livroArtes"> {{ livroArtes.ano }} </td>
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="livrosColunas"></tr>

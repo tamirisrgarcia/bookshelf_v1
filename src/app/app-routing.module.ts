@@ -1,18 +1,20 @@
-import { SagasComponent } from './sagas/sagas.component';
-import { ArtesComponent } from './artes/artes.component';
-import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
-import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
-import { FeedComponent } from './feed/feed.component';
 import { NgModule } from '@angular/core';
+import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 import { RouterModule, Routes } from '@angular/router';
-import { canActivate, redirectUnauthorizedTo, redirectLoggedInTo } from '@angular/fire/auth-guard';
-import { PsicologiaComponent } from './psicologia/psicologia.component';
-import { DireitoComponent } from './direito/direito.component';
-import { TecnologiaComponent } from './tecnologia/tecnologia.component';
-import { TeatroComponent } from './teatro/teatro.component';
+
+import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { AppRecuperarSenhaComponent } from './app-recuperar-senha/app-recuperar-senha.component';
+import { ArtesComponent } from './artes/artes.component';
+import { DireitoComponent } from './direito/direito.component';
+import { EmpreendedorismoComponent } from './empreendedorismo/empreendedorismo.component';
 import { EspecialMesComponent } from './especial-mes/especial-mes.component';
+import { FeedComponent } from './feed/feed.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { PsicologiaComponent } from './psicologia/psicologia.component';
+import { SagasComponent } from './sagas/sagas.component';
+import { SugestoesComponent } from './sugestoes/sugestoes.component';
+import { TeatroComponent } from './teatro/teatro.component';
+import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -65,6 +67,10 @@ const routes: Routes = [
   },
    {
     path:'EspecialMes', component: EspecialMesComponent,
+    ...canActivate(enviarSemLogin)
+  },
+  {
+    path:'sugestoes', component: SugestoesComponent,
     ...canActivate(enviarSemLogin)
   },
   {

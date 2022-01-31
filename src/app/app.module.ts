@@ -43,6 +43,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { AppCompartilhadoModule } from './app-compartilhado/app-compartilhado.module';
 import { MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import { SugestoesComponent } from './sugestoes/sugestoes.component';
 
 
 @NgModule({
@@ -61,7 +62,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     TeatroComponent,
     AppRecuperarSenhaComponent,
     EspecialMesComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SugestoesComponent
    ],
 
 

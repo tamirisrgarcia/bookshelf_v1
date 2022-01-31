@@ -1,0 +1,17 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Essas são as nossas sugestões de leitura. Não dá pra perder!</h1>
+  <mat-grid-list cols="2" rowHeight="500px">
+    <mat-grid-tile *ngFor="let livroSugestoes of livrosSugestoes$ | async" [colspan]="livroSugestoes.cols" [rowspan]="livroSugestoes.rows">
+      <mat-card class="sugestoes-card">
+        <mat-card-header>
+          <mat-card-title>{{ livroSugestoes.titulo }}</mat-card-title>
+          <mat-card-subtitle>{{ livroSugestoes.autor }}</mat-card-subtitle>
+        </mat-card-header>
+        <div class="cardImg">
+          <img mat-card-image [src]="livroSugestoes.img" [alt]="livroSugestoes.titulo">
+        </div>
+        <mat-card-content class="sugestoes-card-content">{{ livroSugestoes.descricao }}</mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
