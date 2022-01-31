@@ -44,8 +44,10 @@
         <mat-icon aria-label="Menu BookShelf Lateral">menu</mat-icon>
       </button>
       <!-- Criada a classe small-con -->
-      <img mat-card-sm-image [width]="lIcone" [height]="aIcone" [src]="iconeGeral" class="small-icon"
-      matTooltip="Ir para Página Principal" matTooltipPosition= 'after'>
+      <a href="/">
+        <img mat-card-sm-image [width]="lIcone" [height]="aIcone" [src]="iconeGeral" class="small-icon"
+        matTooltip="Ir para Página Principal" matTooltipPosition= 'after'>
+      </a>
       <ng-container *ngIf="usuario$ | async as usuario; else botaoLogin">
         <button mat-raised-button color="primary" [matMenuTriggerFor]="usuarioMenu"
         matTooltip="Clique para abrir Menu">
