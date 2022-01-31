@@ -1,0 +1,22 @@
+[
+  {
+    "titulo":"Tudo sobre ISBN",
+    "img": "https://i0.wp.com/edocbrasil.com.br/wp-content/uploads/2018/07/registrar-isbn-codigo-de-barras-destaque.jpg?fit=546%2C254&ssl=1",
+    "conteudo": "De acordo com a legislação vigente, o registro de ISBN, juntamente com a ficha catalográfica, é um dos elementos obrigatórios nas publicações brasileiras. A obtenção do registro de ISBN demanda tempo e paciência para quem não está familiarizado com os procedimentos da Agência Brasileira."
+  },
+  {
+    "titulo": "O que é o registro de ISBN?",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHE7c9e77rZQDwtw9bynED3Rh0W7hdorMUyA&usqp=CAU",
+    "conteudo": "O ISBN é um sistema padronizado que identifica numericamente os livros e softwares de maneira a individualizá-los. Como você já deve supor, a partir de um registro de ISBN é possível identificar um livro quanto ao título, o autor, a editora, o país e a edição. Quando o registro de ISBN é atribuído para uma obra, o número fixado só se aplica àquele título e edição. O número atribuído não se repete jamais em outra obra em qualquer parte do mundo. O significado de ISBN é International Standard Book Number. Devido ao crescente número de publicações impressas na década de 1960, percebeu-se a necessidade de um número padronizado que individualizasse cada obra perante as demais. Para solucionar essa questão, editores ingleses criaram o ISBN em 1967. Em pouco tempo, passou a ser amplamente utilizado no continente europeu e nos Estados Unidos.  Foi oficializado em 1972, como norma internacional pela International Organization for Standartization – ISO 2108 – 1972. Atualmente, o sistema se espalhou pelo mundo e agora existem mais de 160 agências regionais de registro, fornecendo códigos para mais de 200 países e territórios. Uma grande vantagem de um sistema numérico padronizado é a quebra de barreiras linguísticas, facilitando a circulação e comercialização das obras internacionalmente. Além disso, um sistema versátil como esse facilita a troca de arquivos digitais e a recuperação e transmissão de dados em sistemas automatizados. Ele simplifica a busca e a atualização bibliográfica e colabora diretamente com a integração cultural entre os povos."
+  },
+  {
+    "titulo": "Quais são as entidades responsáveis?",
+    "conteudo": "O ISBN é gerido no âmbito mundial pela Agência Internacional do ISBN e no âmbito regional, pelas agências nacionais. No Brasil, a Agência Brasileira do ISBN é representada pela Câmara Brasileira do Livro. A Agência Internacional faz parte da International Organization for Standardization (ISO). Resumidamente, o ISO é o órgão internacional que cria regras padronizadas nas mais variadas áreas do conhecimento. A Agência Internacional atua globalmente para a criação de regras e regulação dos padrões do número de ISBN.",
+    "img": "https://www.editoraartemis.com.br/wp-content/uploads/2020/02/CBL.jpg"
+  },
+  {
+    "titulo": "Como é composto o número de ISBN?",
+    "conteudo": "O número de ISBN funciona como um CPF para livros e outras publicações monográficas, como softwares e apostilas. Cada número é criado por meio de uma combinação de 13 dígitos que indicam o título, o autor, o país, a editora e a edição de uma obra. Os três primeiros dígitos se trata do código Gtin e são determinados pelo GS1, entidade internacional que gerencia códigos de barras de todos produtos comercializados atualmente. No caso do livro, é usado o código 978. Logo após do código Gtin, entra o grupo registrante, que identifica o país, a região geográfica ou a área de idioma. O Brasil é identificado pelos códigos 85 e 65. Logo em seguida, há o elemento registrante que informa o editor do livro. O comprimento deste elemento varia de acordo com o número esperado de edições do editor e pode conter até 7 dígitos. Há ainda o número da publicação, que pode conter até 6 dígitos. E por último, o dígito de controle ou dígito verificador, ele garante que os números atribuídos sejam únicos e exclusivos em todo o mundo.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjPoa83Zyo1XX7kOlqDORQ4rnJ8s0jY07ybbnxc7CgKuhoKUZg92N6-C_NCV0cPKJeoQA&usqp=CAU"
+  }
+]
