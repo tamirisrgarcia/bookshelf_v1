@@ -9,7 +9,8 @@
         <mat-card-subtitle>
           <mat-nav-list>
             <mat-list-item *ngFor="let link of especMes.livrosPublicados">
-              <a [href]="link.ref"  target="_blank">{{ link.nomeLivro }}</a>
+              <a [href]="link.ref"  target="_blank"
+              matTooltip="Clique para saber mais" matTooltipPosition="right">{{ link.nomeLivro }} </a>
               <!-- Adição do divisor de links -->
               <mat-divider></mat-divider>
             </mat-list-item>
