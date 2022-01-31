@@ -42,7 +42,7 @@ import { EspecialMesComponent } from './especial-mes/especial-mes.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AppCompartilhadoModule } from './app-compartilhado/app-compartilhado.module';
 import { MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
-
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 
 @NgModule({
@@ -90,7 +90,8 @@ import { MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
     HotToastModule.forRoot(),
-    AppCompartilhadoModule
+    AppCompartilhadoModule,
+    MatTooltipModule
   ],
   providers: [{provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: {hasBackdrop: false}}],
   bootstrap: [AppComponent]

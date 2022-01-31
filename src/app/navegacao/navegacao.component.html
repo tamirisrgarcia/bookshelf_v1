@@ -1,9 +1,13 @@
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
-    <img mat-card-image [src]="logoMenu" alt="Imagem do logo no menu">
+    <img mat-card-image [src]="logoMenu" alt="Imagem do logo no menu" >
     <p>
-      <button class="buttonEmail" color="accent" mat-raised-button matBadge="2" matBadgeSize="small"  *ngIf="usuario$ | async as usuario">
+      <button class="buttonEmail"
+      color="accent"
+      mat-raised-button matBadge="2"
+      matBadgeSize="small"
+      *ngIf="usuario$ | async as usuario">
         <mat-icon>account_circle</mat-icon> {{usuario.email}}
       </button>
     </p>
@@ -15,7 +19,6 @@
       <div class="sectionItem" *ngFor="let itemMenu of itensMenu$ | async; index as i">
         <a mat-list-item *ngIf="itemMenu.hab === true" [href]="itemMenu.linkMenu">
           <mat-icon>arrow_right</mat-icon>{{itemMenu.labelMenu}}</a>
-        <mat-divider></mat-divider>
       </div>
 
       <!-- Top 10 Literário -->
@@ -38,9 +41,11 @@
         <mat-icon aria-label="Menu BookShelf Lateral">menu</mat-icon>
       </button>
       <!-- Criada a classe small-con -->
-      <img mat-card-sm-image [width]="lIcone" [height]="aIcone" [src]="iconeGeral" class="small-icon">
+      <img mat-card-sm-image [width]="lIcone" [height]="aIcone" [src]="iconeGeral" class="small-icon"
+      matTooltip="Ir para Página Principal" matTooltipPosition= 'after'>
       <ng-container *ngIf="usuario$ | async as usuario; else botaoLogin">
-        <button mat-raised-button color="primary" [matMenuTriggerFor]="usuarioMenu">
+        <button mat-raised-button color="primary" [matMenuTriggerFor]="usuarioMenu"
+        matTooltip="Clique para abrir Menu">
           <mat-icon class="mat-18">account_circle</mat-icon> <!-- Alteração de ícone -->
           {{usuario.displayName}}
           <!-- Alteração de ícone -->
@@ -48,7 +53,7 @@
         </button>
       </ng-container>
       <ng-template #botaoLogin>
-        <button mat-raised-button color="primary" (click)="abrirLogin('Faça seu Login')">
+        <button mat-raised-button color="primary" (click)="abrirLogin('Faça seu Login')" >
           <mat-icon class="mat-18">login</mat-icon>
           LOGIN
         </button>
@@ -56,7 +61,7 @@
     </mat-toolbar>
      <mat-menu #usuarioMenu="matMenu">
        <!--Melhorias no Botão de Usuário -->
-      <button mat-menu-item>
+      <button mat-menu-item >
         <mat-icon>account_box</mat-icon>
         <span>Meu perfil</span>
       </button>
