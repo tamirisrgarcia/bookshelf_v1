@@ -46,6 +46,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { IsbnComponent } from './isbn/isbn.component';
 import { AppPaginaUsuarioComponent } from './app-pagina-usuario/app-pagina-usuario.component';
+import { BrasilEMundoComponent } from './brasil-emundo/brasil-emundo.component';
 
 
 @NgModule({
@@ -67,8 +68,9 @@ import { AppPaginaUsuarioComponent } from './app-pagina-usuario/app-pagina-usuar
     NotFoundComponent,
     SugestoesComponent,
     IsbnComponent,
-    AppPaginaUsuarioComponent
-   ],
+    AppPaginaUsuarioComponent,
+    BrasilEMundoComponent
+  ],
 
 
   imports: [
