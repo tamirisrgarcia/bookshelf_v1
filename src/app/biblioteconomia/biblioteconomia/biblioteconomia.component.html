@@ -6,15 +6,15 @@
           <div mat-card-avatar class="example-header-image">
             <img mat-card-image [src]="logoCards">
           </div>
-          <mat-card-title>{{card.titulo}}</mat-card-title>
+          <mat-card-title><h1>{{card.titulo}}</h1></mat-card-title>
         </mat-card-header>
         <div class="img"><img mat-card-image [src]="card.img" [alt]="card.titulo"></div>
         <mat-card-content class="biblio-card-content">
           <div>{{card.conteudo}}</div>
         </mat-card-content>
         <mat-nav-list>
-          <mat-list-item *ngFor="let link of card.link">
-            <a matLine [href]="link.ref" matTooltip="Clique para ler a reportagem" >{{ link.texto }} </a>
+          <mat-list-item *ngFor="let link of card.link" matTooltip="Clique para ler a reportagem">
+            <a matLine [href]="link.ref">{{ link.texto }} </a>
             <button mat-icon-button >
               <mat-icon>info</mat-icon>
             </button>

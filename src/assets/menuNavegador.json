@@ -7,6 +7,6 @@
   {"linkMenu":"/EspecialMes", "labelMenu": "Especial do Mês", "hab": true},
   {"linkMenu":"/sugestoes", "labelMenu": "Sugestões de Leitura", "hab": true},
   {"linkMenu":"/isbn", "labelMenu": "ISBN", "hab": true},
-  {"linkMenu":"/brasil-emundo","labelMenu": "Brasil e Mundo", "hab": true},
+  {"linkMenu":"/brasil-emundo","labelMenu": "Livros Mais Vendidos", "hab": true},
   {"linkMenu":"/biblioteconomia", "labelMenu": "Biblioteconomia", "hab": true}
 ]

@@ -11,7 +11,7 @@ import { AppLoginComponent } from './../app-login/app-login.component';
 import { MenuNavegador } from './../modelosInterface/menuNavegador';
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
 import { NavegacaoService } from './../servicosInterface/navegacao.service'
-// import { MatTooltip } from '@angular/material/tooltip';
+
 
 @Component({
   selector: 'app-navegacao',
@@ -45,7 +45,6 @@ export class NavegacaoComponent {
     private autenticacaoFirebaseService: AutenticacaoFirebaseService,
     private navegadorService: NavegacaoService,
     private toast: HotToastService
-    // public tooltip: MatTooltip
     ) {
       this.itensMenu$ = navegadorService.listagemMenu()
       .pipe(
