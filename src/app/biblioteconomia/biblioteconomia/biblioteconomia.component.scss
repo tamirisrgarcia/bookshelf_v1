@@ -1,0 +1,48 @@
+.biblio-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.biblio-card-content {
+  text-align: center;
+}
+
+// SCSS do divisor de links
+.mat-divider {
+  margin: 0;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: rgb(202, 198, 198);
+}
+
+.mat-card-avatar {
+  width: 80px;
+  height: 80px;
+}
+
+.loading-spinner{
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.mat-card-image {
+  width: 80%;
+}
+
