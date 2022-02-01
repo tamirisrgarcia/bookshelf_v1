@@ -17,6 +17,7 @@ import { SagasComponent } from './sagas/sagas.component';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { TeatroComponent } from './teatro/teatro.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
+import { BrasilEMundoComponent } from './brasil-emundo/brasil-emundo.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -67,7 +68,7 @@ const routes: Routes = [
   {
     path: 'recuperarsenha', component: AppRecuperarSenhaComponent
   },
-   {
+  {
     path:'EspecialMes', component: EspecialMesComponent,
     ...canActivate(enviarSemLogin)
   },
@@ -80,8 +81,12 @@ const routes: Routes = [
     ...canActivate(enviarSemLogin)
   },
   {
-   path:'clube', component: AppPaginaUsuarioComponent,
-   ...canActivate(enviarSemLogin)
+    path:'clube', component: AppPaginaUsuarioComponent,
+    ...canActivate(enviarSemLogin)
+  },
+  {
+    path:'brasil-emundo', component:BrasilEMundoComponent,
+    ...canActivate(enviarSemLogin)
   },
   {
     path: '**', component: NotFoundComponent
