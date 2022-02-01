@@ -17,7 +17,7 @@
 
     <mat-nav-list >
       <div mat-list-item class="sectionMenu">
-        <h4>SEÇÕES</h4>
+        <h4 matTooltip="Navegar nas seções abaixo" matTooltipPosition="right">SEÇÕES</h4>
       </div>
       <div class="sectionItem" *ngFor="let itemMenu of itensMenu$ | async; index as i">
         <a mat-list-item *ngIf="itemMenu.hab === true" [href]="itemMenu.linkMenu">
@@ -26,7 +26,7 @@
 
       <!-- Top 10 Literário -->
       <div mat-list-item class="sectionMenu">
-        <h4>TOP 10 LITERÁRIO</h4>
+        <h4 matTooltip="Ver Categorias abaixo" matTooltipPosition="right">TOP 10 LITERÁRIO</h4>
       </div>
       <mat-divider></mat-divider>
       <div class="catTop10" *ngFor="let itemMenu of itensMenuTop10$ | async; index as in">
@@ -46,16 +46,16 @@
       <!-- Criada a classe small-con -->
       <a href="/">
         <img mat-card-sm-image [width]="lIcone" [height]="aIcone" [src]="iconeGeral" class="small-icon"
-        matTooltip="Ir para Página Principal" matTooltipPosition= 'after'>
+        matTooltip="Ir para Página Principal" >
       </a>
       <!--Botão para alterar a cor da toolbar-->
       <button mat-button (click)="changeColor()" class="change-color"
-      matTooltip="Alterar a cor da barra superior" matTooltipPosition="right">
+      matTooltip="Alterar a cor da barra superior" matTooltipPosition="below">
         <span class="material-icons">format_color_fill</span>
       </button>
       <!--fim do botão para alterar a cor da Toolbar-->
       <ng-container *ngIf="usuario$ | async as usuario; else botaoLogin">
-        <button mat-raised-button color="primary" [matMenuTriggerFor]="usuarioMenu"
+        <button class="buttonUsuario" mat-raised-button color="primary" [matMenuTriggerFor]="usuarioMenu"
         matTooltip="Clique para abrir Menu">
           <mat-icon class="mat-18">account_circle</mat-icon> <!-- Alteração de ícone -->
           {{usuario.displayName}}

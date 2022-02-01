@@ -1,3 +1,4 @@
+import { AppPaginaUsuarioComponent } from './app-pagina-usuario/app-pagina-usuario.component';
 import { NgModule } from '@angular/core';
 import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 import { RouterModule, Routes } from '@angular/router';
@@ -77,6 +78,10 @@ const routes: Routes = [
   {
     path: 'isbn', component: IsbnComponent,
     ...canActivate(enviarSemLogin)
+  },
+  {
+   path:'clube', component: AppPaginaUsuarioComponent,
+   ...canActivate(enviarSemLogin)
   },
   {
     path: '**', component: NotFoundComponent

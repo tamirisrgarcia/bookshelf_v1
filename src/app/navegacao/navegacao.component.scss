@@ -17,20 +17,30 @@
   z-index: 1;
   justify-content: space-between;
 }
+
 .mat-toolbar.mat-accent {
   position: sticky;
   top: 0;
   z-index: 1;
   justify-content: space-between;
 }
-.change-color{
-  margin-left: 800px;
+
+ng-container {
+  button .buttonUsuario {
+    position: relative;
+  }
 }
+
+// Troca de cores da toolbar
+.change-color{
+  position: absolute;
+  right: 185px;
+}
+
 
 .sectionMenu {
   display: flex;
   background: #9b87c4;
-
 }
 
 .sectionMenu h4 {
@@ -44,13 +54,11 @@
   opacity: .8;
   color: #fff;
   font-weight: 500;
-
 }
 
 .catTop10,
 .sectionItem {
   background: rgb(242, 241, 247);
-
 }
 
 mat-icon {
@@ -62,7 +70,9 @@ mat-icon {
   margin-left: auto;
   margin-right: auto;
   font-size: 11px;
+
 }
+
 
 .more {
  margin-left: .2rem;
@@ -85,3 +95,8 @@ mat-icon {
   margin-right: auto;
   margin-bottom: 40px;
 }
+
+// .change-color{
+//   position: sticky;
+//   left: 80px;
+// }
