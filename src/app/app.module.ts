@@ -45,6 +45,7 @@ import { MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { IsbnComponent } from './isbn/isbn.component';
+import { AppPaginaUsuarioComponent } from './app-pagina-usuario/app-pagina-usuario.component';
 
 
 @NgModule({
@@ -66,8 +67,8 @@ import { IsbnComponent } from './isbn/isbn.component';
     NotFoundComponent,
     SugestoesComponent,
     IsbnComponent,
-
-  ],
+    AppPaginaUsuarioComponent
+   ],
 
 
   imports: [

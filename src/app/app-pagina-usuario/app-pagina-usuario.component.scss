@@ -1,0 +1,287 @@
+.perfil  {
+  display: flex;
+  justify-content: center;
+}
+
+mat-card-title {
+  color: rgb(61, 61, 61);
+}
+
+mat-card .card1 {
+  margin: 1% 2%;
+  width: 30%;
+  height: 400px;
+  background-color: rgb(238, 236, 236);
+}
+
+mat-card .card2 {
+  margin: 1% 2%;
+  width: 60%;
+  height: 400px;
+  background-color: rgb(238, 236, 236);
+}
+
+.perfilContainer {
+  position: relative;
+}
+
+.overlap {
+  position: absolute;
+  bottom: 0;
+  right: 70px;
+}
+
+mat-card-content .fotoPerfil {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 1rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.classificacao {
+  position: relative;
+  height: 150px;
+}
+
+.classificacao img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 65px;
+  width: 65px;
+}
+
+.classificacao p {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  font-weight: 500;
+  color: #7c54c4;
+}
+
+
+// Card 2
+mat-card-content .tituloNome {
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+mat-card {
+  mat-card-content {
+    .dadosUsuario {
+      margin-top: 5%;
+      margin-left: 5%;
+      display: flex;
+    }
+  }
+}
+
+.dadosUsuario h2 {
+  color: #7c54c4;
+}
+
+.dadosPessoais {
+  margin-left: 13%;
+}
+
+mat-card-content {
+  .dadosUsuario h3 {
+    font-weight: 500;
+    margin-bottom: 0;
+    color: rgb(92, 92, 92);
+  }
+}
+
+mat-card {
+  mat-card-title  {
+    h1 {
+      margin-left: 5%;
+      margin-top: 1%;
+      margin-right: 3%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+mat-card-content {
+  .dadosPessoais .planoUsuario {
+    color: #7c54c4;
+  }
+}
+
+
+// Card 3
+mat-card .card3 {
+  margin: 1% 2%;
+  width: 480px;
+  height: 310px;
+  background-color: rgb(238, 236, 236);
+}
+
+mat-card-content {
+  mat-card-title {
+    margin: 3%;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+mat-grid-tile {
+  img {
+    height: 65px;
+  }
+}
+
+mat-grid-tile {
+  mat-card {
+    padding: 2px 5px;
+    width: 90px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+mat-grid-tile {
+  mat-card:hover {
+    filter: brightness(.8)
+  }
+}
+
+mat-grid-tile {
+  mat-card {
+    mat-card-title {
+      margin-top: 5%;
+      font-size: 9px;
+      line-height: 9px;
+      text-align: center;
+    }
+  }
+}
+
+mat-grid-tile {
+  mat-card {
+    img {
+     display: flex;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 5%;
+    }
+  }
+}
+
+// Card 4
+mat-card .card4 {
+  margin: 1% 2%;
+  width: 480px;
+  height: 310px;
+  background-color: rgb(238, 236, 236);
+  position: relative;
+}
+
+.botaoInteresse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 110px;
+  color: #7c54c4;
+}
+
+.botaoInteresse:hover {
+  background-color: #7c54c4;
+  color: #fff;
+}
+
+
+// -------------------------------------- Media Queries
+@media (max-width: 768px) {
+
+  // Card 1
+  .perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  mat-card .card1 {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // Card 2
+  mat-card .card2 {
+    margin-top: 7%;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dadosUsuario h2 {
+    line-height: 1.4rem;
+    margin-top: 1.3rem;
+    font-size: 1.1rem;
+    width: 100px;
+  }
+
+  .dadosUsuario h3 {
+    font-size: .9rem;
+  }
+
+  // Card 3
+  mat-card .card3 {
+    margin-top: 0;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  mat-grid-list .livrosFavs {
+    position: relative;
+  }
+
+  mat-grid-list .livrosFavs {
+    mat-grid-tile {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 230px;
+    }
+  }
+
+  mat-grid-tile {
+    mat-card {
+      margin: 5px;
+    }
+  }
+
+
+  // Card 4
+  mat-card .card4 {
+    margin-top: 7%;
+    width: 320px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  mat-grid-tile {
+    button {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  }
+}

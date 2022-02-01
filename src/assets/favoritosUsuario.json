@@ -1,0 +1,42 @@
+[
+  {
+    "img":"https://images-na.ssl-images-amazon.com/images/I/61jAs+Gzw-L._SX415_BO1,204,203,200_.jpg",
+    "titulo": "História Ilustrada da Arte",
+    "autor":"Ian Chilvers"
+  },
+  {
+    "img":"https://escolaeducacao.com.br/wp-content/uploads/2020/07/o-senhor-dos-aneis.jpg",
+    "titulo": "O Senhor dos Anéis",
+    "autor":"J.R.R Tolkien"
+  },
+  {
+    "img":"https://images-na.ssl-images-amazon.com/images/I/41Nj51EgH4L._SX338_BO1,204,203,200_.jpg",
+    "titulo": "O Herói de Mil Faces",
+    "autor":"Joseph Campbell"
+  },
+  {
+    "img":"https://t.ctcdn.com.br/-kd9msvX5fPBTzGqXQ39H6RRXPk=/i444379.jpeg",
+    "titulo": "Inteligência Artificial",
+    "autor":"Kai-Fu Lee"
+  },
+  {
+    "img":"https://t.ctcdn.com.br/aRZZL8R3F6mxlFyX5h95rPBxpqY=/i444398.jpeg",
+    "titulo": "Transformação Digital",
+    "autor":"David L. Rogers"
+  },
+  {
+    "img":"https://images-na.ssl-images-amazon.com/images/I/51nzm02L8cL._SY344_BO1,204,203,200_QL70_ML2_.jpg",
+    "titulo": "Em Busca de Sentido",
+    "autor":"Viktor E. Frankl"
+  },
+  {
+    "img":"https://carreiraeempreendedorismo.com/wp-content/uploads/2018/01/Pai-Rico-Pai-Pobre-198x300.png",
+    "titulo": "Pai Rico, Pai Pobre",
+    "autor":"Robert T. Kiyosaki"
+  },
+  {
+    "img":"https://images-na.ssl-images-amazon.com/images/I/81rvO7xcJOL.jpg",
+    "titulo": "Harry Potter",
+    "autor":"J.K. Rowling"
+  }
+]

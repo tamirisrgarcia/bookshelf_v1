@@ -1,0 +1,92 @@
+<mat-card class="perfil">
+
+  <!-- Card 1 -->
+  <mat-card class="card1">
+    <mat-card-content *ngIf="usuario$ | async as usuario">
+      <h1 class="tituloNome" >{{ usuario.displayName }}</h1>
+      <div class="perfilContainer" *ngIf="usuario$ | async as usuario">
+          <img class="fotoPerfil" [src]="usuario.photoURL" alt="Foto de Perfil">
+          <button type="button" mat-mini-fab color="accent" class="overlap" matTooltip="Adicionar nova foto" > <!--(click)="perfilFoto.click()"-->
+            <mat-icon>photo_camera</mat-icon>
+          </button>
+      </div>
+        <div class="classificacao">
+          <img [src]="babyPerfil" alt="Classificação de Perfil">
+          <p>Perfil Novato</p>
+        </div>
+    </mat-card-content>
+  </mat-card>
+
+  <!-- Card 2 -->
+  <mat-card class="card2">
+    <mat-card-title class="tituloPerfil">
+      <h1>Perfil do Usuário<a href="#" mat-mini-fab color="accent">
+        <mat-icon matTooltip="Editar Dados" >edit</mat-icon></a></h1>
+    </mat-card-title>
+    <mat-divider></mat-divider>
+      <mat-card-content *ngIf="usuario$ | async as usuario">
+        <div class="dadosUsuario" >
+          <div class="dadosAcesso">
+            <h2>Dados de Acesso</h2>
+            <h3>Nome</h3>
+            <h5>{{ usuario.displayName }}</h5>
+            <h3>Email</h3>
+            <h5>{{ usuario.email }}</h5>
+            <h3>ID de Usuário</h3>
+            <h5>{{ usuario.uid }}</h5>
+        </div>
+        <div class="dadosPessoais">
+          <h2>Dados Pessoais</h2>
+          <h3>Username</h3>
+          <h5>{{ usuarioUsername }}</h5>
+          <h3>Data de Nascimento</h3>
+          <h5>{{ usuarioDataNasc }}</h5>
+          <h3>Gênero</h3>
+          <h5>{{ usuarioGenero }}</h5>
+          <h3 class="planoUsuario">Plano Contratado</h3>
+          <h5>{{ usuarioPlano }}</h5>
+        </div>
+        </div>
+      </mat-card-content>
+  </mat-card>
+</mat-card>
+
+<!-- Card 3 -->
+<mat-card class="perfil">
+  <mat-card class="card3">
+    <mat-card-content>
+      <mat-card-title>
+        Favoritos de {{ todayDate | pipeTraducao }}
+        <a mat-mini-fab color="accent" class="miniFab" href="#" matTooltip="Ver lista completa"><mat-icon >favorite</mat-icon></a>
+      </mat-card-title>
+
+        <mat-grid-list class="livrosFavs" cols="4" rowHeight="2:2" *ngIf="favoritosUsuario$ | async as livrosFavs">
+          <mat-grid-tile *ngFor="let favs of favoritosUsuario$ | async">
+            <mat-card class="singleLivro">
+              <mat-card-title>{{ favs.titulo }}</mat-card-title>
+              <div class="imagemLivro"><img [src]="favs.img"></div>
+            </mat-card>
+          </mat-grid-tile>
+        </mat-grid-list>
+
+    </mat-card-content>
+  </mat-card>
+
+  <!-- Card 4 -->
+  <mat-card class="card4">
+    <mat-card-content>
+      <mat-card-title >Interesses
+        <a href="#" mat-mini-fab color="accent" class="miniFab" matTooltip="Adicionar Novos temas"><mat-icon>note_add</mat-icon></a>
+      </mat-card-title>
+        <mat-grid-list cols="3" rowHeight="3:1" class="button-grid">
+          <mat-grid-tile class="button-row" *ngFor = "let interesse of interesses$">
+            <div><button mat-raised-button class="botaoInteresse">{{ interesse.area }}</button></div>
+          </mat-grid-tile>
+        </mat-grid-list>
+    </mat-card-content>
+  </mat-card>
+</mat-card>
+
+
+
+
