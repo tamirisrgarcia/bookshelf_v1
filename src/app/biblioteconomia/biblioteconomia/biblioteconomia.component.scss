@@ -43,6 +43,15 @@
 }
 
 .mat-card-image {
+  padding-top: 7px;
+  padding-left: 9px;
   width: 80%;
 }
 
+mat-card-title {
+  margin-top: 8px;
+}
+
+mat-card-title h1 {
+  margin-left: 0;
+}
