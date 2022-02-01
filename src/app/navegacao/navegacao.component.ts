@@ -35,6 +35,9 @@ export class NavegacaoComponent {
       map(result => result.matches),
       shareReplay()
     );
+
+      toolbarColor: string = 'primary';
+
   constructor(
     private breakpointObserver: BreakpointObserver,
     private telaLogin: MatDialog,
@@ -77,5 +80,8 @@ export class NavegacaoComponent {
       ).subscribe(() =>{
         this.rotas.navigate([''])
      })
+    }
+    changeColor(){
+      this.toolbarColor = this.toolbarColor === 'primary' ? 'accent' : 'primary';
     }
 }
