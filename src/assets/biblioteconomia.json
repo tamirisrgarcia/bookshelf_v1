@@ -1,0 +1,33 @@
+[
+  {
+    "titulo": "Já saiu a nova edição da nossa revista!",
+    "img": "../../assets/imagens/cover2.png",
+    "conteudo":"Confira no link abaixo o volume 20 da REVISTA DIGITAL DE BIBLIOTECONOMIA E CIÊNCIA DA INFORMAÇÃO",
+    "link":[
+      {"ref":"https://periodicos.sbu.unicamp.br/ojs/index.php/rdbci/issue/view/1863", "texto":"RDBCI, v20"}
+    ],
+    "cols": 2,
+    "rows": 3
+  },
+  {
+    "titulo": "12 de Março - Dia do Bibliotecário",
+    "img": "http://crb3.org.br/wp-content/uploads/2020/01/DIA-DO-BIBLIO-1024x454.png",
+    "conteudo":"Em comemoração ao dia do bibliotecário, preparamos uma seleção de conteúdos especiais voltados ao dia-a-dia da profissão. Confira:",
+    "link":[
+      {"ref":"https://www.bn.gov.br/acontece/noticias/2021/03/12-marco-dia-bibliotecario", "texto":"Biblioteca Nacional"},
+      {"ref":"https://cfb.org.br/noticias/os-bibliotecarios-devem-conhecer-o-funcionamento-do-conselho-2/", "texto":"Conselho Federal de Biblioteconomia"}
+    ],
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Você conhece a biblioterapia?",
+    "img": "../../assets/imagens/cover3.png",
+    "conteudo":"Com o isolamento social trazido pela pandemia, tornou-se ainda mais evidente a importância dos livros na vida das pessoas. Descubra na matéria a seguir o poder curativo dos livros.",
+    "link":[
+      {"ref":"https://cfb.org.br/noticias/voce-conhece-a-biblioterapia/", "texto":"Matéria"}
+    ],
+    "cols": 1,
+    "rows": 2
+  }
+]
