@@ -1,13 +1,13 @@
 [
   {
     "titulo": "Já saiu a nova edição da nossa revista!",
-    "img": "../../assets/imagens/cover2.png",
+    "img": "../../assets/imagens/cover3.png",
     "conteudo":"Confira no link abaixo o volume 20 da REVISTA DIGITAL DE BIBLIOTECONOMIA E CIÊNCIA DA INFORMAÇÃO",
     "link":[
       {"ref":"https://periodicos.sbu.unicamp.br/ojs/index.php/rdbci/issue/view/1863", "texto":"RDBCI, v20"}
     ],
     "cols": 2,
-    "rows": 3
+    "rows": 2
   },
   {
     "titulo": "12 de Março - Dia do Bibliotecário",
@@ -22,7 +22,7 @@
   },
   {
     "titulo": "Você conhece a biblioterapia?",
-    "img": "../../assets/imagens/cover3.png",
+    "img": "../../assets/imagens/cover4.png",
     "conteudo":"Com o isolamento social trazido pela pandemia, tornou-se ainda mais evidente a importância dos livros na vida das pessoas. Descubra na matéria a seguir o poder curativo dos livros.",
     "link":[
       {"ref":"https://cfb.org.br/noticias/voce-conhece-a-biblioterapia/", "texto":"Matéria"}

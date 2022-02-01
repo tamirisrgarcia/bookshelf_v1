@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { delay, first, tap } from 'rxjs';
+import { first, tap } from 'rxjs';
 
 import { Biblioteconomia } from '../modelos/biblioteconomia';
 
@@ -9,14 +9,14 @@ import { Biblioteconomia } from '../modelos/biblioteconomia';
 })
 export class BiblioteconomiaService {
 
-  private readonly uriAPI = '/src/assets/biblioteconomia.json';
+
+  private readonly uriAPI = '/assets/biblioteconomia.json';
 
   constructor(private clienteDados: HttpClient) { }
   listagemBiblio() {
     return this.clienteDados.get<Biblioteconomia[]>(this.uriAPI)
     .pipe(
       first(),
-      delay(500),
       tap(apiBiblio => console.log(apiBiblio))
     )
   }
