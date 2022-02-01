@@ -18,6 +18,7 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { TeatroComponent } from './teatro/teatro.component';
 import { TecnologiaComponent } from './tecnologia/tecnologia.component';
 import { BrasilEMundoComponent } from './brasil-emundo/brasil-emundo.component';
+import { WikiComponent } from './wiki/wiki.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -92,6 +93,9 @@ const routes: Routes = [
     path: 'biblioteconomia',
     loadChildren: () => import('./biblioteconomia/biblioteconomia.module').then(c => c.BiblioteconomiaModule),
     ...canActivate(enviarSemLogin)
+  },
+  {
+    path: 'wiki', component: WikiComponent,
   },
   {
     path: '**', component: NotFoundComponent

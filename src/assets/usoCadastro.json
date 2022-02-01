@@ -1,0 +1,6 @@
+[
+  {
+    "titulo":"Como realizo meu cadastro no BookShelf?",
+    "descricao": "É bem simples! Você pode acessar a tela de cadastro, na página inicial e colocar os dados solicitados. No campo 'Digite seu nome' informe seu nome completo. No campo 'Email de Login' você irá adicionar um email válido pessoal. No campo 'Senha' você deverá digitar uma senha com no mínimo 8 caracteres. Pode utilizar letras, números e caracteres especiais. No campo 'Confirme a senha' você irá repetir a senha inserida anteriormente. E por fim, no campo 'Insira o URL da sua foto', escolha uma foto e insira o endereço da URL, que se trata do caminho que indica onde está a sua foto. Após inserir todos os dados corretamente, clique em 'Cadastrar'."
+  }
+]

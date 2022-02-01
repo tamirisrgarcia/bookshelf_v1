@@ -47,6 +47,8 @@ import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { IsbnComponent } from './isbn/isbn.component';
 import { AppPaginaUsuarioComponent } from './app-pagina-usuario/app-pagina-usuario.component';
 import { BrasilEMundoComponent } from './brasil-emundo/brasil-emundo.component';
+import { WikiComponent } from './wiki/wiki.component';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 @NgModule({
@@ -69,7 +71,8 @@ import { BrasilEMundoComponent } from './brasil-emundo/brasil-emundo.component';
     SugestoesComponent,
     IsbnComponent,
     AppPaginaUsuarioComponent,
-    BrasilEMundoComponent
+    BrasilEMundoComponent,
+    WikiComponent
   ],
 
 
@@ -99,7 +102,8 @@ import { BrasilEMundoComponent } from './brasil-emundo/brasil-emundo.component';
     provideStorage(() => getStorage()),
     HotToastModule.forRoot(),
     AppCompartilhadoModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatExpansionModule
   ],
   providers: [{provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: {hasBackdrop: false}}],
   bootstrap: [AppComponent]
