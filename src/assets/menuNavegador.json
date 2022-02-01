@@ -8,5 +8,6 @@
   {"linkMenu":"/sugestoes", "labelMenu": "Sugestões de Leitura", "hab": true},
   {"linkMenu":"/isbn", "labelMenu": "ISBN", "hab": true},
   {"linkMenu":"/brasil-emundo","labelMenu": "Livros Mais Vendidos", "hab": true},
-  {"linkMenu":"/biblioteconomia", "labelMenu": "Biblioteconomia", "hab": true}
+  {"linkMenu":"/biblioteconomia", "labelMenu": "Biblioteconomia", "hab": true},
+  {"linkMenu":"/wiki", "labelMenu": "Wiki", "hab": true}
 ]

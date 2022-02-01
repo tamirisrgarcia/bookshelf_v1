@@ -1,0 +1,15 @@
+<div class="grid-container">
+  <mat-card class="painelTitulo"> <mat-icon>help_outline</mat-icon> PAINEL DE AJUDA </mat-card>
+  <mat-expansion-panel *ngFor="let cadastro of wikiCadastro$ | async" class="painel">
+    <mat-expansion-panel-header>{{ cadastro.titulo }}</mat-expansion-panel-header>
+      {{cadastro.descricao}}
+    </mat-expansion-panel>
+  <mat-expansion-panel *ngFor="let erro of wikiErro$ | async" class="painel">
+    <mat-expansion-panel-header>{{ erro.titulo }}</mat-expansion-panel-header>
+     {{erro.descricao}}
+  </mat-expansion-panel>
+  <mat-expansion-panel *ngFor="let login of wikiLogin$ | async" class="painel">
+    <mat-expansion-panel-header>{{ login.titulo }}</mat-expansion-panel-header>
+     {{login.descricao}}
+</mat-expansion-panel>
+</div>
