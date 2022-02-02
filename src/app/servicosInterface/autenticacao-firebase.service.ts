@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
 import { Auth } from '@angular/fire/auth';
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from 'firebase/auth';
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, sendPasswordResetEmail,  updateProfile } from 'firebase/auth';
 import { authState } from 'rxfire/auth';
 import { from, switchMap } from 'rxjs';
-import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";;
+
 
 @Injectable({
   providedIn: 'root'
@@ -47,6 +48,7 @@ export class AutenticacaoFirebaseService {
       const credential = GoogleAuthProvider.credentialFromError(error);
     }));
     }
-
-
+    recuperarSenha(email:string) {
+      return from(sendPasswordResetEmail(this.usuarioFb, email))
+    }
 }
