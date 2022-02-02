@@ -48,31 +48,33 @@
         <img mat-card-sm-image [width]="lIcone" [height]="aIcone" [src]="iconeGeral" class="small-icon"
         matTooltip="Ir para Página Principal" >
       </a>
-      <!--Botão para alterar a cor da toolbar-->
-      <button mat-button (click)="changeColor()" class="change-color"
-      matTooltip="Alterar a cor da barra superior" matTooltipPosition="below">
-        <span class="material-icons">format_color_fill</span>
-      </button>
-      <!--fim do botão para alterar a cor da Toolbar-->
-      <ng-container *ngIf="usuario$ | async as usuario; else botaoLogin">
-        <button class="buttonUsuario" mat-raised-button color="primary" [matMenuTriggerFor]="usuarioMenu"
-        matTooltip="Clique para abrir Menu">
-          <mat-icon class="mat-18">account_circle</mat-icon> <!-- Alteração de ícone -->
-          {{usuario.displayName}}
-          <!-- Alteração de ícone -->
-          <mat-icon class="more">more_vert</mat-icon>
+      <div>
+          <!--Botão para alterar a cor da toolbar-->
+        <button mat-button (click)="changeColor()" class="change-color"
+        matTooltip="Alterar a cor da barra superior" matTooltipPosition="below">
+          <span class="material-icons">format_color_fill</span>
         </button>
-      </ng-container>
-      <ng-template #botaoLogin>
-        <button mat-raised-button color="primary" (click)="abrirLogin('Faça seu Login')" >
-          <mat-icon class="mat-18">login</mat-icon>
-          LOGIN
-        </button>
-      </ng-template>
+        <!--fim do botão para alterar a cor da Toolbar-->
+        <ng-container *ngIf="usuario$ | async as usuario; else botaoLogin">
+          <button class="buttonUsuario" mat-raised-button color="primary" [matMenuTriggerFor]="usuarioMenu"
+          matTooltip="Clique para abrir Menu">
+            <mat-icon class="mat-18">account_circle</mat-icon> <!-- Alteração de ícone -->
+            {{usuario.displayName}}
+            <!-- Alteração de ícone -->
+            <mat-icon class="more">more_vert</mat-icon>
+          </button>
+        </ng-container>
+        <ng-template #botaoLogin>
+          <button mat-raised-button color="primary" (click)="abrirLogin('Faça seu Login')" >
+            <mat-icon class="mat-18">login</mat-icon>
+            LOGIN
+          </button>
+        </ng-template>
+      </div>
     </mat-toolbar>
 
-     <mat-menu #usuarioMenu="matMenu">
-       <!--Melhorias no Botão de Usuário -->
+    <mat-menu #usuarioMenu="matMenu">
+      <!--Melhorias no Botão de Usuário -->
       <button mat-menu-item >
         <mat-icon>account_box</mat-icon>
         <span routerLink="/clube">Meu perfil</span>

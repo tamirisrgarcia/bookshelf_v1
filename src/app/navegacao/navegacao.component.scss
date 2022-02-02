@@ -32,10 +32,11 @@ ng-container {
 }
 
 // Troca de cores da toolbar
-.change-color{
-  position: absolute;
-  right: 185px;
-}
+// .change-color{
+//   position: absolute;
+//   right: 185px;
+// }
+//Este estilo não posibilita o ajuste automático do botão de troca de cor do toolbar com o botão do login
 
 
 .sectionMenu {
@@ -75,7 +76,7 @@ mat-icon {
 
 
 .more {
- margin-left: .2rem;
+  margin-left: .2rem;
 }
 
 // O ícone irá sumir quando a tela estiver em 600px
@@ -95,8 +96,3 @@ mat-icon {
   margin-right: auto;
   margin-bottom: 40px;
 }
-
-// .change-color{
-//   position: sticky;
-//   left: 80px;
-// }
