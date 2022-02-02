@@ -1,3 +1,4 @@
+
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
 import { Router } from '@angular/router';
 import { Component, OnInit, Inject } from '@angular/core';
@@ -29,9 +30,17 @@ export class AppRecuperarSenhaComponent implements OnInit {
     return this.formularioRecuperar.get('email');
   }
 
-  loginFirebase(){
-    console.log('teste')
+  esqueceuSenha() {
+    if (this.formularioRecuperar.valid) {
+      const {email} = this.formularioRecuperar.value;
+      this.autenticacaoFirebaseService.recuperarSenha(email).subscribe({
+        next: () => {
+        this.toast.success('Email de recuperação de senha enviado!')
+      },
+      error: (err) => {
+        this.toast.error('Email não cadastrado')
+      }
+    })
   }
-
-
+  }
 }
