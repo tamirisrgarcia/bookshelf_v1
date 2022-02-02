@@ -9,23 +9,33 @@
     <img mat-card-image src="../../assets/imagens/4.png" alt="Banner de Login">
     <mat-card-content>
       <form [formGroup]="formularioLogin" (ngSubmit)="loginFirebase()">
-        <mat-form-field class="inputLogin">
-          <input matInput placeholder="E-mail de Login" formControlName="email">
-          <!-- Correção de Português nos erros -->
-          <mat-error *ngIf="email?.errors?.['required']">É necessário informar um e-mail.</mat-error>
-          <mat-error *ngIf="email?.errors?.['email']">O formato do e-mail é inválido</mat-error>
-        </mat-form-field>
-        <mat-form-field>
-          <!-- Correção de Português -->
-          <input matInput placeholder="Senha" formControlName="senha" type="password">
-          <!-- Correção de Português, adição de ponto de interrogação -->
-          <mat-error *ngIf="senha?.errors?.['required']">
-            <a routerLink="/recuperarsenha" [mat-dialog-close]="true">Esqueceu a senha?</a></mat-error>
-        </mat-form-field>
-        <mat-card-footer>
-          <button class="buttonLogin" mat-raised-button color="accent" type="submit">Entrar</button>
-          <button class="buttonClose" mat-raised-button mat-dialog-close color="primary">Fechar</button>
-        </mat-card-footer>
+        <div class="loginNormal">
+          <mat-form-field class="inputLogin">
+            <input matInput placeholder="E-mail de Login" formControlName="email">
+            <!-- Correção de Português nos erros -->
+            <mat-error *ngIf="email?.errors?.['required']">É necessário informar um e-mail.</mat-error>
+            <mat-error *ngIf="email?.errors?.['email']">O formato do e-mail é inválido</mat-error>
+          </mat-form-field>
+          <mat-form-field>
+            <!-- Correção de Português -->
+            <input matInput placeholder="Senha" formControlName="senha" type="password">
+            <!-- Correção de Português, adição de ponto de interrogação -->
+            <mat-error *ngIf="senha?.errors?.['required']">
+              <a routerLink="/recuperarsenha" [mat-dialog-close]="true">Esqueceu a senha?</a></mat-error>
+          </mat-form-field>
+        </div>
+          <mat-card-footer>
+            <button class="buttonLogin" mat-raised-button color="accent" type="submit">Entrar</button>
+            <button class="buttonClose" mat-raised-button mat-dialog-close color="primary">Fechar</button>
+          </mat-card-footer>
+
+        <div class="loginGoogle">
+          <span>Ou entre com sua conta Google:</span>
+          <button type="button" (click)="loginGoogle()" mat-raised-button>
+            <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/imagem-google-logo-com-fundo-transparente-1.png" alt="">
+            Logar com o Google
+          </button>
+        </div>
       </form>
     </mat-card-content>
     <!-- Correção de Português -->

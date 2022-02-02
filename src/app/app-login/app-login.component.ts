@@ -78,4 +78,12 @@ export class AppLoginComponent {
     });
     this.formularioLogin.reset();
   }
+
+  loginGoogle(){
+    this.autenticacaoFirebaseService.googleAuthProvider().subscribe(() =>{
+      this.rotas.navigate(['/feed']),
+      this.fecharDialogo()
+    });
+  }
+
 }
