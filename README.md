@@ -1,15 +1,14 @@
 <p align="center">
-<img  src="https://github.com/giselle-ferreira/bookshelf_v1/blob/main/src/assets/imagens/logoBS5.png" width="100"/>
+<img  src="https://github.com/giselle-ferreira/bookshelf_v1/blob/main/src/assets/imagens/3.png" width="800"/>
 </p>
 
 <h1 align="center">Bookshelf</h1>
-<h3 align="center">Estante Virtual</h3>
 
 <br>
 <br>
 
 > ## Sobre o Projeto
-> Implementações desenvolvidas para conclusão do módulo de Angular, juntamente com Firebase, do curso de Desenvolvedor Web Fullstack da [SoulCode Academy](https://soulcodeacademy.org/).
+> Implementações desenvolvidas para conclusão do módulo de Angular, juntamente com Firebase, do curso de Desenvolvedor Web Fullstack da [SoulCode Academy](https://soulcodeacademy.org/). O Bookshelf é uma Estante Virtual, que traz as últimas informações do mundo literário.
 
 <br>
 <br>
