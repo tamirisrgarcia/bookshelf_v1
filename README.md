@@ -28,7 +28,7 @@
 
 > ## Layout 💻
 
-<img src="https://github.com/giselle-ferreira/Poppins-ONG-Educacional/blob/main/img/Poppins.gif" width="900" />
+<img src="https://github.com/giselle-ferreira/bookshelf_v1/blob/main/src/assets/bookshelf.gif" width="900" />
 
 <br>
 <br>
