@@ -1,30 +1,15 @@
 <p align="center">
-<img  src="https://i.postimg.cc/kXnXcK5V/image.png" width="800" />
+<img  src="https://github.com/giselle-ferreira/bookshelf_v1/blob/main/src/assets/imagens/logoBS5.png" width="100"/>
 </p>
 
-<h1 align="center"><img src="https://i.postimg.cc/RhpMgyYT/umbrella-32.png"> Poppins</h1>
-<h4 align="center">Organização Não-governamental Educacional</h4>
+<h1 align="center">Bookshelf</h1>
+<h3 align="center">Estante Virtual</h3>
 
 <br>
 <br>
 
-> ## Sobre a Poppins ☂️
-> O site da Poppins foi desenvolvido para o encerramento do módulo de HTML e CSS do curso de Desenvolvedor Web Fullstack da [SoulCode Academy](https://soulcodeacademy.org/).
-Trata-se de uma ONG fictícia com foco no aprimoramento da educação infantil, especialmente para crianças em situação de vulnerabilidade.
-
-<br>
-<br>
-
-> ## Entregáveis ☑️
-> - [x] Deve conter uma landing page como página inicial, mostrando uma visão geral da empresa/ONG/pessoa. E links para acessar as seguintes páginas:
->    - [x] Serviços/Currículo (caso seja uma pessoa)
->    - [x] Projetos
->    - [x] Sobre mim (página contendo informações mais específicas)
-> - [x] Deve conter um rodapé com informações de contato e autoria.
-> - [x] A listagem de projetos deve ser feita utilizando grid ou flexbox.
-> - [x] Todas as páginas devem respeitar a semântica do HTML5 (uso adequado de blocos).
-> - [x] Todo o site deve ser responsivo.
-> - [x] As soluções devem ser postadas no Github para propósitos de avaliação.
+> ## Sobre a Projeto
+> Implementações desenvolvidas para conclusão do módulo de Angular, juntamente com Firebase, do curso de Desenvolvedor Web Fullstack da [SoulCode Academy](https://soulcodeacademy.org/).
 
 <br>
 <br>
@@ -44,12 +29,6 @@ Trata-se de uma ONG fictícia com foco no aprimoramento da educação infantil, 
 > ## Layout 💻
 
 <img src="https://github.com/giselle-ferreira/Poppins-ONG-Educacional/blob/main/img/Poppins.gif" width="900" />
-
-<br>
-<br>
-
-> ## Visite o Site 🔗
-> Link para o Site [Poppins](https://poppins-educacional.netlify.app/sobre.html)
 
 <br>
 <br>
